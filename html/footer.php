@@ -126,10 +126,10 @@
           </aside>
         </div><!-- .{$key}_widget_class -->
 
-        <div id="footer_three" class="span4">
-          <aside id="search-6" class="widget widget_search">
+        <div id="footer_three" class="span3">
+          <aside id="search-2" class="widget widget_search">
             <h3 class="widget-title">
-              Busqueda
+              B&uacute;squeda
             </h3>
             <form role="search" method="get" id="searchform" class="searchform" action="http://ahuacatlanavanza.gob.mx/">
               <div>
