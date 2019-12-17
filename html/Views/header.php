@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-  <html class="no-js" lang="es-ES">
     <head>
 
       <?php
@@ -44,116 +42,29 @@
                 </div>
               </div>
 
-              <div class="nav-collapse collapse">
-                <div class="menu-menu-principal-container">
-                  <ul id="menu-menu-principal-2" class="nav">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-172">
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://ahuacatlanavanza.gob.mx/cabildo/">
-                        Cabildo 
-                        <strong class="caret"></strong>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226">
-                          <a href="http://ahuacatlanavanza.gob.mx/gacetas-municipales/">
-                            Gaceta Oficial
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
-                      <a href="http://ahuacatlanavanza.gob.mx/inicio/">
-                        Inicio
-                      </a>
-                    </li>
-                    
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327">
-                      <a href="http://ahuacatlanavanza.gob.mx/te-escuchamos/">
-                        Queremos Escucharte
-                      </a>
-                    </li>
-
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-383">
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://ahuacatlanavanza.gob.mx/comunicacion-social/">
-                        Comunicación Social 
-                        <strong class="caret"></strong>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2261">
-                          <a href="http://ahuacatlanavanza.gob.mx/licitaciones-publicas/">
-                            Convocatorias y Licitaciones Públicas
-                          </a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2793">
-                          <a href="http://ahuacatlanavanza.gob.mx/quejas-y-denuncias/"> 
-                            Quejas y Denuncias
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384">
-                      <a href="http://ahuacatlanavanza.gob.mx/tramites/">
-                        Trámites
-                      </a>
-                    </li>
-                    
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-385">
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://ahuacatlanavanza.gob.mx/transparencia/">
-                        Transparencia 
-                        <strong class="caret"></strong>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown-submenu menu-item-1005">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://ahuacatlanavanza.gob.mx/ayuntamientoitai/">
-                            Ayuntamiento
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-                              <a href="http://ahuacatlanavanza.gob.mx/avisos-de-privacidad/">
-                                Avisos de Privacidad
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
-                              <a href="http://ahuacatlanavanza.gob.mx/articulo-10-historico/">
-                                Articulo 10 (Historico)
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
-                              <a href="http://ahuacatlanavanza.gob.mx/articulo33/">
-                                Articulo 33
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394">
-                              <a href="http://ahuacatlanavanza.gob.mx/articulo39/">
-                                Articulo 39
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown-submenu menu-item-1009">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://ahuacatlanavanza.gob.mx/organismos-descentralizados/">
-                            Organismos Descentralizados
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
-                              <a href="http://ahuacatlanavanza.gob.mx/dif/">
-                                DIF
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="http://ahuacatlanavanza.gob.mx/ooapa-2/">
-                                OOAPA
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <?php
+              $rol=4;
+              if($rol==1)
+              {
+                include 'headerContent/menuOficialia.php';
+              }
+              else if ($rol==2)
+              {
+                include 'headerContent/menuSecretaria.php';
+              }
+              else if ($rol==3)
+              {
+                include 'headerContent/menuDepartamentos.php';
+              }
+              else if ($rol==4)
+              {
+                include 'headerContent/menuSolicitante.php';
+              }
+              else
+              {
+                include 'headerContent/menuVisitante.php';
+              }
+              ?>
 
               <div class="btn-toggle-nav pull-right">
                 <button type="button" class="btn menu-btn" data-toggle="collapse" data-target=".nav-collapse" title="Abrir el menú" aria-label="Abrir el menú">
