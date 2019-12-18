@@ -142,13 +142,6 @@
       </div><!-- //#main-wrapper -->
     </div><!-- //#tc-page-wrapper -->
 
-    <?php
-    include 'footerContent/script.php';
-    ?>
-    
-    <div id="tc-footer-btt-wrapper" class="tc-btt-wrapper right">
-      <i class="btt-arrow"></i>
-    </div>  
   </body>
 
   <?php

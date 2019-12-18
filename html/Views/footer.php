@@ -1,4 +1,12 @@
 <!-- FOOTER -->
+<?php
+include 'footerContent/script.php';
+?>
+    
+<div id="tc-footer-btt-wrapper" class="tc-btt-wrapper right">
+  <i class="btt-arrow"></i>
+</div>  
+
 <footer id="footer" class="">
   <div class="container footer-widgets ">
     <div class="row widget-area" role="complementary">
