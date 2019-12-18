@@ -145,11 +145,10 @@
   </body>
   <?php
   include 'footer.php';
-<<<<<<< HEAD
+
   ?> 
 
 </html>
-=======
   ?>
   <?php
   include 'ventanasModales.php';
@@ -158,4 +157,4 @@
 
 
 </html>
->>>>>>> b70523c1eb548f930ee3d8a9041cf30245b1b405
+
