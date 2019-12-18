@@ -3,7 +3,7 @@
                   <ul id="menu-menu-principal-2" class="nav">
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
-                      <a href="indexFree.php">
+                      <a href="indexOficialia.php">
                         Inicio
                       </a>
                     </li>
