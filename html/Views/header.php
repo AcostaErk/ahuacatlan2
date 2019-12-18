@@ -8,8 +8,10 @@
       ?>
 
       <title>
-        XLI Ayuntamiento de Ahuacatlán Nayarit  &#8211; Gobierno que Construye, Municipio que Avanza 
+        Reportes Ahuacatl&aacute;n
+        
       </title>   
+      <!-- XLI Ayuntamiento de Ahuacatlán Nayarit  &#8211; Gobierno que Construye, Municipio que Avanza -->
     </head>
     
     <header class="tc-header clearfix row-fluid tc-tagline-off tc-title-logo-on  tc-shrink-on tc-menu-on logo-left tc-second-menu-in-sn-before-when-mobile" role="banner">
