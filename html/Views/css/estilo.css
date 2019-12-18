@@ -1,0 +1,18 @@
+.nav-Personalizada >li {
+  margin-right:  100px;
+    float: left;
+}
+
+.nav-Personalizada >li >a {
+font-size: 14px;
+line-height: 1.6em;
+}
+
+.nav-Personalizada {
+  margin-bottom: 22px;
+  list-style: none;
+    }
+
+ol, ul {
+padding: 0 5px;
+}

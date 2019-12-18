@@ -1,6 +1,7 @@
     <head>
-
+<link rel="stylesheet" href="css/estilo.css">
       <?php
+
       include 'headerContent/links.php';
       include 'headerContent/metas.php';
       include 'headerContent/styles.php';
@@ -9,14 +10,14 @@
 
       <title>
         Reportes Ahuacatl&aacute;n
-        
-      </title>   
+
+      </title>
       <!-- XLI Ayuntamiento de Ahuacatlán Nayarit  &#8211; Gobierno que Construye, Municipio que Avanza -->
     </head>
-    
+
     <header class="tc-header clearfix row-fluid tc-tagline-off tc-title-logo-on  tc-shrink-on tc-menu-on logo-left tc-second-menu-in-sn-before-when-mobile" role="banner">
       <div class="brand span3 pull-left">
-        <a class="site-logo" href="http://ahuacatlanavanza.gob.mx/" title="XLI Ayuntamiento de Ahuacatlán Nayarit  | Gobierno que Construye, Municipio que Avanza "><img src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/09/logo-1.png" alt="Volver a la página principal" width="272" height="90" style="max-width:250px;max-height:100px" data-no-retina class=" attachment-311"/></a>        
+        <a class="site-logo" href="http://ahuacatlanavanza.gob.mx/" title="XLI Ayuntamiento de Ahuacatlán Nayarit  | Gobierno que Construye, Municipio que Avanza "><img src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/09/logo-1.png" alt="Volver a la página principal" width="272" height="90" style="max-width:250px;max-height:100px" data-no-retina class=" attachment-311"/></a>
       </div> <!-- brand span3 -->
 
       <div class="navbar-wrapper clearfix span9 tc-submenu-fade tc-submenu-move tc-open-on-click pull-menu-left">
@@ -72,9 +73,9 @@
                 <button type="button" class="btn menu-btn" data-toggle="collapse" data-target=".nav-collapse" title="Abrir el menú" aria-label="Abrir el menú">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
-                  <span class="icon-bar"></span> 
+                  <span class="icon-bar"></span>
                 </button>
-              </div>               
+              </div>
             </div><!-- /.row-fluid -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar resp -->
