@@ -46,7 +46,7 @@
               </div>
 
               <?php
-              $rol=4;
+              $rol=99;
               if($rol==1)
               {
                 include 'headerContent/menuOficialia.php';
