@@ -9,8 +9,14 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="" title="Oficial&iacute;a">
+                      <a href="../Views/registrarSolicitud.php" title="Oficial&iacute;a">
                         Realizar solicitud
+                      </a>
+                    </li>
+
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
+                      <a href="" title="Usuario">
+                        Perfil
                       </a>
                     </li>
 

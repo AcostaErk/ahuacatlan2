@@ -64,7 +64,7 @@ include 'footerContent/script.php';
           </h3>
           
           <?php
-          $rol=99;
+          $rol=4;
           if($rol==1)
            {
             include 'footerContent/menuOficialia.php';

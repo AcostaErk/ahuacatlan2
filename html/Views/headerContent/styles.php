@@ -112,6 +112,12 @@
             line-height:22px;
             width:400px;
           }
+          .solicitud
+          {
+            font-size:13px;
+            line-height:20px;
+            width:600px;
+          }
         }
             
         @media (max-width: 1199px) and (min-width: 980px) 
@@ -132,6 +138,12 @@
             line-height:20px;
             width:400px;
           }
+          .solicitud
+          {
+            font-size:13px;
+            line-height:20px;
+            width:600px;
+          }
         }
             
         @media (max-width: 979px) and (min-width: 768px) 
@@ -151,6 +163,12 @@
             font-size:12px;
             line-height:19px;
             width:400px;
+          }
+          .solicitud
+          {
+            font-size:13px;
+            line-height:20px;
+            width:600px;
           }
         }
             
