@@ -1,4 +1,4 @@
-<style type="text/css">
+      <style type="text/css">
         img.wp-smiley,img.emoji 
         {
           display: inline !important;
@@ -106,6 +106,11 @@
             font-size:14px;
             line-height:22px;
           }
+          .modal-dialog
+          {
+            font-size:14px;
+            line-height:22px;
+          }
         }
             
         @media (max-width: 1199px) and (min-width: 980px) 
@@ -116,6 +121,11 @@
             line-height:31px;
           }
           .tc-post-list-grid .tc-g-cont 
+          {
+            font-size:13px;
+            line-height:20px;
+          }
+          .modal-dialog
           {
             font-size:13px;
             line-height:20px;
@@ -134,6 +144,11 @@
             font-size:12px;
             line-height:19px;
           }
+          .modal-dialog
+          {
+            font-size:12px;
+            line-height:19px;
+          }
         }
             
         @media (max-width: 767px) 
@@ -148,6 +163,11 @@
             font-size:14px;
             line-height:22px;
           }
+          .modal-dialog
+          {
+            font-size:14px;
+            line-height:22px;
+          }
         }
             
         @media (max-width: 480px) 
@@ -158,6 +178,11 @@
             line-height:31px;
           }
           .tc-post-list-grid .tc-g-cont 
+          {
+            font-size:13px;
+            line-height:20px;
+          }
+          .modal-dialog
           {
             font-size:13px;
             line-height:20px;

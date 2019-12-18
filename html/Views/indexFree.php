@@ -148,8 +148,4 @@
   include 'footer.php';
   ?> 
 
-  <?php
-  include 'ventanasModales.php';
-  ?>
-
 </html>

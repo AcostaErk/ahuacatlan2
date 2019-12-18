@@ -1,7 +1,14 @@
-			<div class="nav-collapse collapse">
+			        <style type="text/css">
+
+                #menu-menu-principal-2 li a {
+                padding-right: 0 !important
+                }
+                
+              </style>
+
+              <div class="nav-collapse collapse">
                 <div class="menu-menu-principal-container">
                   <ul id="menu-menu-principal-2" class="nav">
-
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
                       <a href="indexFree.php">
                         Inicio
@@ -9,18 +16,17 @@
                     </li>
                     
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170" >
-                      <a  href="#iniciarSesion" class="trigger-btn" data-toggle="modal">
+                      <a  href="../Views/login.php" class="trigger-btn" data-toggle="modal">
                         Iniciar sesi&oacute;n
                       </a>
 
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170" >
-                      <a  href="">
+                      <a  href="#iniciarSesion" class="trigger-btn"  data-toggle="modal">
                         Registrarse
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-
