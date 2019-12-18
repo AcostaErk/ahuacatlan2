@@ -10,138 +10,211 @@
           
           <ul>
             <li class="has-label">
-                      <strong>
-                        Email
-                      </strong>
-                      <br>
-                      <div>
-                        <a href="mailto:pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx">
-                            pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx
-                        </a>
-                      </div>
-                    </li>
-                    <li class="has-label">
-                      <strong>
-                        Teléfono
-                      </strong>
-                      <br>
-                      <div>
-                        (324)241 1254
-                      </div>
-                    </li>
-                    <li class="has-label">
-                      <strong>
-                        Dirección
-                      </strong>                         
-                      <br>
-                      <div>
-                        Calle Hidalgo s/n, Centro, 63900                          
-                      <br/>
-                Ahuacatlán, Nayarit
+              <strong>
+                Email
+              </strong>
+              <br>
+              
+              <div>
+                <a href="mailto:pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx">
+                  pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx
+                </a>
+              </div>
+            </li>
+            
+            <li class="has-label">
+              <strong>
+                Tel&eacute;fono
+              </strong>
+              <br>
+              
+              <div>
+                (324)241 1254
+              </div>
+            </li>
+            
+            <li class="has-label">
+              <strong>
+                Direcci&oacute;n
+              </strong>                         
+              <br>
+              
+              <div>
+                Calle Hidalgo s/n, Centro, 63900                          
+                <br/>
+                Ahuacatl&aacute;n, Nayarit
               </div>
             </li>
           </ul>
         </aside>
-            </div><!-- .{$key}_widget_class -->
+      </div><!-- .{$key}_widget_class -->
+
       <div id="footer_two" class="span4">
-                <aside id="nav_menu-5" class="widget widget_nav_menu">
-                  <h3 class="widget-title">
-                    Navegacion
-                  </h3>
-                  <div class="menu-menu-principal-container">
-                    <ul id="menu-menu-principal-3" class="menu">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
-                        <a href="http://ahuacatlanavanza.gob.mx/cabildo/">
-                          Cabildo
-                        </a>
-                <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226">
-                      <a href="http://ahuacatlanavanza.gob.mx/gacetas-municipales/">
-                        Gaceta Oficial
-                      </a>
-                    </li>
-                </ul>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
-                <a href="http://ahuacatlanavanza.gob.mx/inicio/">
+        <aside id="nav_menu-5" class="widget widget_nav_menu">
+          <h3 class="widget-title">
+            Navegaci&oacute;n
+          </h3>
+          
+          <div class="menu-menu-principal-container">
+            <ul id="menu-menu-principal-3" class="menu">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
+                <a href="indexFree.php">
                   Inicio
-                </a>
+                </a>  
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327">
-                <a href="http://ahuacatlanavanza.gob.mx/te-escuchamos/">
-                  Queremos Escucharte
-                </a>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-383">
-                <a href="http://ahuacatlanavanza.gob.mx/comunicacion-social/">
-                  Comunicación Social
-                </a>
-                <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2261">
-                      <a href="http://ahuacatlanavanza.gob.mx/licitaciones-publicas/">
-                        Convocatorias y Licitaciones Públicas
-                      </a>
-                    </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2793">
-                      <a href="http://ahuacatlanavanza.gob.mx/quejas-y-denuncias/">
-                        Quejas y Denuncias
-                      </a>
-                    </li>
-                </ul>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384">
-                <a href="http://ahuacatlanavanza.gob.mx/tramites/">
-                  Trámites
-                </a>
-              </li>
+
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-385">
-                <a href="http://ahuacatlanavanza.gob.mx/transparencia/">
-                  transparencia
+                <a href="">
+                  Usuarios
                 </a>
                 <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
-                      <a href="http://ahuacatlanavanza.gob.mx/ayuntamientoitai/">
-                        Ayuntamiento
-                      </a>
-                      <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-                          <a href="http://ahuacatlanavanza.gob.mx/avisos-de-privacidad/">
-                            Avisos de Privacidad
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Oficial&iacute;a
+                    </a>
+                    <ul class="sub-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                          <a href="">
+                             Registrar nuevo
                           </a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
-                          <a href="http://ahuacatlanavanza.gob.mx/articulo-10-historico/">
-                            Articulo 10 (Historico)
-                          </a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
-                          <a href="http://ahuacatlanavanza.gob.mx/articulo33/">
-                            Articulo 33
-                          </a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394">
-                          <a href="http://ahuacatlanavanza.gob.mx/articulo39/">
-                            Articulo 39
-                          </a>
-                        </li>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                        <a href="">
+                          Editar Usuario
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                        <a href="">
+                          Ver usuarios
+                        </a>
+                      </li>
                     </ul>
                   </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1009">
-                      <a href="http://ahuacatlanavanza.gob.mx/organismos-descentralizados/">
-                        Organismos Descentralizados
-                      </a>
-                      <ul class="sub-menu">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
-                          <a href="http://ahuacatlanavanza.gob.mx/dif/">
-                            DIF
+
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Secretar&iacute;a
+                    </a>
+                    <ul class="sub-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                          <a href="">
+                             Registrar nuevo
                           </a>
-                        </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                          <a href="http://ahuacatlanavanza.gob.mx/ooapa-2/">
-                            OOAPA
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                        <a href="">
+                          Editar Usuario
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                        <a href="">
+                          Ver usuarios
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 1
+                    </a>
+                    <ul class="sub-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                          <a href="">
+                             Registrar nuevo
                           </a>
-                        </li>
-                      </ul>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                        <a href="">
+                          Editar Usuario
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                        <a href="">
+                          Ver usuarios
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 2
+                    </a>
+                    <ul class="sub-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                          <a href="">
+                             Registrar nuevo
+                          </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                        <a href="">
+                          Editar Usuario
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                        <a href="">
+                          Ver usuarios
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 3
+                    </a>
+                    <ul class="sub-menu">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
+                          <a href="">
+                             Registrar nuevo
+                          </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
+                        <a href="">
+                          Editar Usuario
+                        </a>
+                      </li>
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                        <a href="">
+                          Ver usuarios
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
+                <a href="">
+                  Solicitudes oficial&iacute;a
+                </a>  
+              </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
+                <a href="">
+                  Solicitudes secretar&iacute;a
+                </a>  
+              </li>
+
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-385">
+                <a href="">
+                  Departamentos
+                </a>
+                <ul class="sub-menu">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 1
+                    </a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 2
+                    </a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
+                    <a href="">
+                      Departamento 3
+                    </a>
                   </li>
                 </ul>
               </li>

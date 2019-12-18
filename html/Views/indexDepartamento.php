@@ -1,430 +1,158 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
     
- 	<?php
- 		 include 'header.php';
- 	?>
-	<body class="home blog tc-fade-hover-links tc-no-sidebar tc-center-images skin-red tc-sticky-header sticky-disabled tc-transparent-on-scroll tc-regular-menu tc-post-list-context" itemscope itemtype="http://schema.org/WebPage">
-   		<div id="tc-page-wrap" class="">
-			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px"></div>   
-				<div id="customizr-slider-1" class="carousel customizr-slide sliderfinal parallax-wrapper">
-        			<div id="tc-slider-loader-wrapper-1" class="tc-slider-loader-wrapper">
-        				<div class="tc-img-gif-loader">
-        				</div>
-       					<div class="tc-css-loader tc-mr-loader">
-       					</div>
-       				</div>
-    				<div class="carousel-inner center-slides-enabled czr-parallax-slider" data-parallax-ratio="0.55">
-            			<div class="czr-item active slide-2212">
-          					<div class="carousel-image slider-full">
-      							<img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/b07ef292-cb5a-46db-b19e-b925ec895693-1280x500.jpg" class="slide" alt="" />   
-      						</div> <!-- .carousel-image -->
-        				</div><!-- /.czr-item -->
-        				<div class="czr-item  slide-2213">
-          					<div class="carousel-image slider-full">
-     							 <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/342eb11a-5439-4d72-a3b3-265ec476405f-1280x500.jpg" class="slide" alt="" />   
-     						</div> <!-- .carousel-image -->
-        				</div><!-- /.czr-item -->
-        				<div class="czr-item  slide-2214">
-         					 <div class="carousel-image slider-full">
-     							 <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/8076ba55-9188-4d7b-b391-af9ae1c67eee-1280x500.jpg" class="slide" alt="" />   
-     						 </div> <!-- .carousel-image -->
-       					</div><!-- /.czr-item -->
-        				<div class="czr-item  slide-2215">
-          					<div class="carousel-image slider-full">
-     							 <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/bb78d872-d4df-4dc2-a495-8729bc178c0d-1280x500.jpg" class="slide" alt="" />    
-     						</div> <!-- .carousel-image -->
-       				 	</div><!-- /.czr-item -->
-        				<div class="czr-item  slide-2216">
-          					<div class="carousel-image slider-full">
-      							<img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/4951b831-8ac3-4e0d-8775-6685b68192ea-1280x500.jpg" class="slide" alt="" />    
-      						</div> <!-- .carousel-image -->
-       					</div><!-- /.czr-item -->
-        				<div class="czr-item  slide-359">
-          					<div class="carousel-image slider-full">
-      							<img width="1231" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/slider3.jpg" class="slide" alt="" />    
-      						</div> <!-- .carousel-image -->
-        				</div><!-- /.czr-item -->
-          			</div><!-- /.carousel-inner -->
-      				<div class="tc-slider-controls left">
-      					<a class="tc-carousel-control" href="#customizr-slider-1" data-slide="prev">
-      						&lsaquo;
-      					</a>
-      				</div>
-      				<div class="tc-slider-controls right">
-      					<a class="tc-carousel-control" href="#customizr-slider-1" data-slide="next">
-      						&rsaquo;
-      					</a>
-      				</div>
-   				</div><!-- /#customizr-slider -->
-    			<div id="main-wrapper" class="container">
-      				<div class="container marketing">
-        				<div class="row widget-area" role="complementary">
-        					<div class="span4 fp-one">
-          						<div class="widget-front">
-            						<div class="thumb-wrapper ">
-            							<a class="round-div" href="http://ahuacatlanavanza.gob.mx/mensaje-del-presidente/" title="Mensaje del Presidente"> 
-            							</a>
-            							<img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/IMG_3574-270x250.jpg" class="attachment-tc-thumb tc-thumb-type-attachment wp-post-image" alt="" />
-            						</div>
-            						<h2>
-            							Mensaje del Presidente 
-            						</h2>
-            						<p class="fp-text-one">
-            							Hola, Soy Agustín Godínez Villegas, esposo de Sobeida Hinojosa y padre de dos hijos, Yael y Arael. Tengo 39 años, soy abogado egresado de la Universidad Autónoma de Nayarit y tengo el honor de servirte ...
-            						</p>
-            						<a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/mensaje-del-presidente/" title="Mensaje del Presidente">		Leer más &raquo;
-            						</a>
-         						</div><!-- /.widget-front -->
-          					</div>
-         	 				<div class="span4 fp-two">
-          						<div class="widget-front">
-            						<div class="thumb-wrapper ">
-            							<a class="round-div" href="http://ahuacatlanavanza.gob.mx/te-escuchamos/" title="Te Escuchamos">
-            							</a>
-            							<img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/09/opinion-270x250.png" class="attachment-tc-thumb tc-thumb-type-thumb wp-post-image wp-post-image" alt="" />
-            						</div>
-            						<h2>
-            							Te Escuchamos 
-            						</h2>
-            						<p class="fp-text-two">
-            							Te agradecemos tu interés en contactarnos. Nos encantará poder contestar cualquier pregunta que puedas tener acerca de nuestra administración y nuestros avances.
-										&nbsp;
-										Somos un Gobierno que escucha ...
-									</p>
-									<a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/te-escuchamos/" title="Te Escuchamos">
-										Leer más &raquo;
-									</a>
-          						</div><!-- /.widget-front -->
-         					 </div>
-         					 <div class="span4 fp-three">
-         					 	<div class="widget-front">
-            						<div class="thumb-wrapper ">
-            							<a class="round-div" href="http://ahuacatlanavanza.gob.mx/directorio/" title="Directorio">
-            							</a>
-            							<img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/telefonos-270x250.png" class="attachment-tc-thumb tc-thumb-type-thumb wp-post-image wp-post-image" alt="" />
-            						</div>
-            						<h2>
-            							Directorio 
-            						</h2>
-            						<p class="fp-text-three">
-									</p>
-									<a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/directorio/" title="Directorio">
-										Leer más &raquo;
-									</a>
-          						</div><!-- /.widget-front -->
- 							</div>
-						</div>
-      				</div><!-- .container -->
-      			</div>
-      		</div>
-		</div><!-- //#main-wrapper -->
+  <?php
+     include 'header.php';
+  ?>
 
-      <!-- FOOTER -->
-<footer id="footer" class="">
-    <div class="container footer-widgets ">
-       	<div class="row widget-area" role="complementary">
-            <div id="footer_one" class="span4">
-                <aside id="wpcw_contact-8" class="widget wpcw-widgets wpcw-widget-contact">
-                	<h3 class="widget-title">
-                		Presidencia Municipal
-                	</h3>
-                	<ul>
-                		<li class="has-label">
-                			<strong>
-                				Email
-                			</strong>
-                			<br>
-                			<div>
-                				<a href="mailto:pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx">
-               							pr&#101;&#115;&#105;&#100;&#101;ncia&#64;&#97;hu&#97;&#99;a&#116;&#108;an&#97;&#118;a&#110;&#122;&#97;&#46;&#103;ob&#46;mx
-                				</a>
-               				</div>
-               			</li>
-               			<li class="has-label">
-               				<strong>
-               					Teléfono
-               				</strong>
-               				<br>
-               				<div>
-               					(324)241 1254
-               				</div>
-               			</li>
-               			<li class="has-label">
-               				<strong>
-               					Dirección
-               				</strong>                					
-               				<br>
-               				<div>
-               					Calle Hidalgo s/n, Centro, 63900                 					
-               				<br/>
-								Ahuacatlán, Nayarit
-							</div>
-						</li>
-					</ul>
-				</aside>
-            </div><!-- .{$key}_widget_class -->
-			<div id="footer_two" class="span4">
-                <aside id="nav_menu-5" class="widget widget_nav_menu">
-                	<h3 class="widget-title">
-                		Navegacion
-                	</h3>
-                	<div class="menu-menu-principal-container">
-                		<ul id="menu-menu-principal-3" class="menu">
-                			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
-                				<a href="http://ahuacatlanavanza.gob.mx/cabildo/">
-                					Cabildo
-                				</a>
-								<ul class="sub-menu">
-  									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226">
-  										<a href="http://ahuacatlanavanza.gob.mx/gacetas-municipales/">
-  											Gaceta Oficial
-  										</a>
-  									</li>
-								</ul>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170">
-								<a href="http://ahuacatlanavanza.gob.mx/inicio/">
-									Inicio
-								</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-327">
-								<a href="http://ahuacatlanavanza.gob.mx/te-escuchamos/">
-									Queremos Escucharte
-								</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-383">
-								<a href="http://ahuacatlanavanza.gob.mx/comunicacion-social/">
-									Comunicación Social
-								</a>
-								<ul class="sub-menu">
-  									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2261">
-  										<a href="http://ahuacatlanavanza.gob.mx/licitaciones-publicas/">
-  											Convocatorias y Licitaciones Públicas
-  										</a>
-  									</li>
-  									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2793">
-  										<a href="http://ahuacatlanavanza.gob.mx/quejas-y-denuncias/">
-  											Quejas y Denuncias
-  										</a>
-  									</li>
-								</ul>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384">
-								<a href="http://ahuacatlanavanza.gob.mx/tramites/">
-									Trámites
-								</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-385">
-								<a href="http://ahuacatlanavanza.gob.mx/transparencia/">
-									transparencia
-								</a>
-								<ul class="sub-menu">
-  									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1005">
-  										<a href="http://ahuacatlanavanza.gob.mx/ayuntamientoitai/">
-  											Ayuntamiento
-  										</a>
-  										<ul class="sub-menu">
-   											<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-   												<a href="http://ahuacatlanavanza.gob.mx/avisos-de-privacidad/">
-   													Avisos de Privacidad
-   												</a>
-   											</li>
-    										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
-    											<a href="http://ahuacatlanavanza.gob.mx/articulo-10-historico/">
-    												Articulo 10 (Historico)
-    											</a>
-    										</li>
-    										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
-    											<a href="http://ahuacatlanavanza.gob.mx/articulo33/">
-    												Articulo 33
-    											</a>
-    										</li>
-    										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394">
-    											<a href="http://ahuacatlanavanza.gob.mx/articulo39/">
-    												Articulo 39
-    											</a>
-    										</li>
- 										</ul>
-									</li>
-  									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1009">
-  										<a href="http://ahuacatlanavanza.gob.mx/organismos-descentralizados/">
-  											Organismos Descentralizados
-  										</a>
-  										<ul class="sub-menu">
-    										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
-    											<a href="http://ahuacatlanavanza.gob.mx/dif/">
-    												DIF
-    											</a>
-    										</li>
-    										<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-    											<a href="http://ahuacatlanavanza.gob.mx/ooapa-2/">
-    												OOAPA
-    											</a>
-    										</li>
-  										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</aside>
-        	</div><!-- .{$key}_widget_class -->
+  <body class="home blog tc-fade-hover-links tc-no-sidebar tc-center-images skin-red tc-sticky-header sticky-disabled tc-transparent-on-scroll tc-regular-menu tc-post-list-context" itemscope itemtype="http://schema.org/WebPage">
+    <div id="tc-page-wrap" class="">
+      <div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px">   
+      </div>   
+      <div id="customizr-slider-1" class="carousel customizr-slide sliderfinal parallax-wrapper">
+        <div id="tc-slider-loader-wrapper-1" class="tc-slider-loader-wrapper">
+          <div class="tc-img-gif-loader">
+          </div>
+          <div class="tc-css-loader tc-mr-loader">
+          </div>
+        </div>
 
+        <div class="carousel-inner center-slides-enabled czr-parallax-slider" data-parallax-ratio="0.55">
+          <div class="czr-item active slide-2212">
+            <div class="carousel-image slider-full">
+              <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/b07ef292-cb5a-46db-b19e-b925ec895693-1280x500.jpg" class="slide" alt="" />   
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
+          
+          <div class="czr-item  slide-2213">
+            <div class="carousel-image slider-full">
+              <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/342eb11a-5439-4d72-a3b3-265ec476405f-1280x500.jpg" class="slide" alt="" />   
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
             
-            <div id="footer_three" class="span4">
-                <aside id="search-6" class="widget widget_search">
-                	<h3 class="widget-title">
-                		Busqueda
-                	</h3>
-                	<form role="search" method="get" id="searchform" class="searchform" action="http://ahuacatlanavanza.gob.mx/">
-  						<div>
-          					<label class="screen-reader-text" for="s">Buscar:</label>
-          					<input type="text" value="" name="s" id="s" />
-         					<input type="submit" id="searchsubmit" value="Buscar" />
-        				</div>
-      				</form>
-      			</aside>
-            </div><!-- .{$key}_widget_class -->
-		</div><!-- .row.widget-area -->
-    </div><!--.footer-widgets -->
-    <div class="colophon">
-        <div class="container">
-          	<div class="row-fluid">
-              <div class="span3 social-block pull-left">
-              	<span class="social-links">
-              		<a rel="nofollow" class="social-icon icon-facebook"  title="Síguenos Facebook" aria-label="Síguenos Facebook" href="https://www.facebook.com/XLIAyuntamientoAhuacatlan/"  target="_blank"  style="color:#f51818;font-size:12px">
-              			<i class="fa fa-facebook">
-              			</i>
-              		</a>
-              		<a rel="nofollow" class="social-icon icon-twitter"  title="Síguenos Twitter" aria-label="Síguenos Twitter" href="javascript:void(0)"  target="_blank"  style="color:#f51818;font-size:12px">
-              			<i class="fa fa-twitter">
-              			</i>
-              		</a>
-              		<a rel="nofollow" class="social-icon icon-youtube"  title="Síguenos Youtube" aria-label="Síguenos Youtube" href="javascript:void(0)"  target="_blank"  style="color:#f51818;font-size:12px">
-              			<i class="fa fa-youtube">
-              				
-              			</i>
-              		</a>
-              		<a rel="nofollow" class="social-icon icon-instagram"  title="Síguenos Instagram" aria-label="Síguenos Instagram" href="javascript:void(0)"  target="_blank"  style="color:#f51818;font-size:12px">
-              			<i class="fa fa-instagram">
-              			
-              			</i>
-              	</a>
-              	<a rel="nofollow" class="social-icon icon-phone"  title="(324)2411254" aria-label="(324)2411254" href="tel:324-241-1254"  target="_blank"  style="color:#f51818;font-size:12px">
-              		<i class="fa fa-phone">
-              		
-              		</i>
-              	</a>
-              	<a rel="nofollow" class="social-icon icon-mail-o"  title="Email" aria-label="Email" href="mailto:ahuacatlanavanza@gmail.com"  target="_blank"  style="color:#f51818;font-size:12px">
-              		<i class="fa fa-envelope-o">
-              		
-              		</i>
-              	</a>
-          	</span>
-      		</div>
-      		<div class="span6 credits">
-      			<p>
-	      			&middot; 
-	      			<span class="tc-copyright-text">
-	      			&copy; 2019
-	      			</span> 
-	      			<a href="http://ahuacatlanavanza.gob.mx" title="XLI Ayuntamiento de Ahuacatlán Nayarit " rel="bookmark">
-	      				XLI Ayuntamiento de Ahuacatlán Nayarit 
-	      			</a> 
-	      			&middot; 
-	      			<span class="tc-wp-powered-text">
-	      				Creado con
-	      			</span> 
-	      			<a class="icon-wordpress" target="_blank" href="https://wordpress.org" title="Creado con WordPress">
-	      			
-	      			</a>
-	      			&middot; 
-	      			<span class="tc-credits-text">
-	      				Diseñado con el 
-	      				<a class="czr-designer-link" href="https://presscustomizr.com/customizr" title="Tema Customizr">
-	      					Tema Customizr
-	      				</a> 
-	      			</span>
-	      			&middot;
-	      		</p>
-	      	</div>             
-	  	</div><!-- .row-fluid -->
-	</div><!-- .container -->
-</div><!-- .colophon -->
-</footer>
+          <div class="czr-item  slide-2214">
+            <div class="carousel-image slider-full">
+              <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/8076ba55-9188-4d7b-b391-af9ae1c67eee-1280x500.jpg" class="slide" alt="" />   
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
+                
+          <div class="czr-item  slide-2215">
+            <div class="carousel-image slider-full">
+              <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/bb78d872-d4df-4dc2-a495-8729bc178c0d-1280x500.jpg" class="slide" alt="" />    
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
+                
+          <div class="czr-item  slide-2216">
+            <div class="carousel-image slider-full">
+              <img width="1280" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2018/03/4951b831-8ac3-4e0d-8775-6685b68192ea-1280x500.jpg" class="slide" alt="" />    
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
+                
+          <div class="czr-item  slide-359">
+            <div class="carousel-image slider-full">
+              <img width="1231" height="500" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/slider3.jpg" class="slide" alt="" />    
+            </div> <!-- .carousel-image -->
+          </div><!-- /.czr-item -->
+        </div><!-- /.carousel-inner -->
+          
+        <div class="tc-slider-controls left">
+          <a class="tc-carousel-control" href="#customizr-slider-1" data-slide="prev">
+            &lsaquo;
+          </a>
+        </div>
+          
+        <div class="tc-slider-controls right">
+          <a class="tc-carousel-control" href="#customizr-slider-1" data-slide="next">
+            &rsaquo;
+          </a>
+        </div>
+      </div><!-- /#customizr-slider -->
+          
+      <div id="main-wrapper" class="container">
+        <div class="container marketing">
+          <div class="row widget-area" role="complementary">
+            <div class="span4 fp-one">
+              <div class="widget-front">
+                <div class="thumb-wrapper ">
+                  <a class="round-div" href="http://ahuacatlanavanza.gob.mx/mensaje-del-presidente/" title="Mensaje del Presidente"> 
+                  </a>
+                  <img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/IMG_3574-270x250.jpg" class="attachment-tc-thumb tc-thumb-type-attachment wp-post-image" alt="" />
+                </div>
+                  
+                <h2>
+                  Mensaje del Presidente 
+                </h2>
+                  
+                <p class="fp-text-one">
+                  Hola, Soy Agust&iacute;n God&iacute;nez Villegas, esposo de Sobeida Hinojosa y padre de dos hijos, Yael y Arael. Tengo 39 a&ntilde;os, soy abogado egresado de la Universidad Aut&oacute;noma de Nayarit y tengo el honor de servirte ...
+                </p>
+                  
+                <a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/mensaje-del-presidente/" title="Mensaje del Presidente">    
+                  Leer m&aacute;s &raquo;
+                </a>
+              </div><!-- /.widget-front -->
+            </div>
+              
+            <div class="span4 fp-two">
+              <div class="widget-front">
+                <div class="thumb-wrapper ">
+                  <a class="round-div" href="http://ahuacatlanavanza.gob.mx/te-escuchamos/" title="Te Escuchamos">
+                  </a>
+                  <img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/09/opinion-270x250.png" class="attachment-tc-thumb tc-thumb-type-thumb wp-post-image wp-post-image" alt="" />
+                </div>
+                        
+                <h2>
+                  Te Escuchamos 
+                </h2>
+                        
+                <p class="fp-text-two">
+                  Te agradecemos tu inter&eacute;s en contactarnos. Nos encantar&aacute; poder contestar cualquier pregunta que puedas tener acerca de nuestra administraci&oacute;n y nuestros avances.
+                  &nbsp;
+                  Somos un Gobierno que escucha ...
+                </p>
+
+                <a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/te-escuchamos/" title="Te Escuchamos">
+                  Leer m&aacute;s &raquo;
+                </a>
+              </div><!-- /.widget-front -->
+            </div>
+
+            <div class="span4 fp-three">
+              <div class="widget-front">
+                <div class="thumb-wrapper ">
+                  <a class="round-div" href="http://ahuacatlanavanza.gob.mx/directorio/" title="Directorio">
+                  </a>
+                  <img width="270" height="250" src="http://ahuacatlanavanza.gob.mx/wp-content/uploads/2017/10/telefonos-270x250.png" class="attachment-tc-thumb tc-thumb-type-thumb wp-post-image wp-post-image" alt="" />
+                </div>
+                  
+                <h2>
+                  Directorio 
+                </h2>
+                  
+                <p class="fp-text-three">
+                </p>
+                  
+                <a class="btn btn-primary fp-button" href="http://ahuacatlanavanza.gob.mx/directorio/" title="Directorio">
+                  Leer m&aacute;s &raquo;
+                </a>
+              </div><!-- /.widget-front -->
+            </div>
+          </div>
+        </div><!-- .container -->
+      </div><!-- //#main-wrapper -->
     </div><!-- //#tc-page-wrapper -->
-    <script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/ahuacatlanavanza.gob.mx\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/plugins/smooth-accordion/assets/js/smoothaccordion.js?ver=1.1'></script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/plugins/smooth-accordion/assets/js/smoothScript.js?ver=1.1'></script>
-<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LcFLYUUAAAAAIdi52qzcnxQcM5Evwj3sDpY5GUj&#038;ver=3.0'></script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/themes/customizr/assets/front/js/libs/modernizr.min.js?ver=4.0.13'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var GEM = {"thankyou":"\u00a1Gracias por registrarte!","thankyou_suppressed":"\u00a1Gracias por inscribirte! Por favor, comprueba tu correo electr\u00f3nico para confirmar tu suscripci\u00f3n.","oops":"\u00a1Vaya! Se ha producido un problema. Por favor, int\u00e9ntalo de nuevo.","email":"Por favor, introduce una direcci\u00f3n de correo v\u00e1lida.","required":"%s es un campo requerido."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/plugins/godaddy-email-marketing-sign-up-forms/js/gem.min.js?ver=1.4.2'></script>
-<script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-includes/js/wp-embed.min.js?ver=5.3.1'></script>
-<script type="text/javascript">
-( function( grecaptcha, sitekey, actions ) {
 
-  var wpcf7recaptcha = {
+    <?php
+    include 'footerContent/script.php';
+    ?>
+    
+    <div id="tc-footer-btt-wrapper" class="tc-btt-wrapper right">
+      <i class="btt-arrow"></i>
+    </div>  
+  </body>
 
-    execute: function( action ) {
-      grecaptcha.execute(
-        sitekey,
-        { action: action }
-      ).then( function( token ) {
-        var forms = document.getElementsByTagName( 'form' );
+  <?php
+  include 'footer.php';
+  ?> 
 
-        for ( var i = 0; i < forms.length; i++ ) {
-          var fields = forms[ i ].getElementsByTagName( 'input' );
-
-          for ( var j = 0; j < fields.length; j++ ) {
-            var field = fields[ j ];
-
-            if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
-              field.setAttribute( 'value', token );
-              break;
-            }
-          }
-        }
-      } );
-    },
-
-    executeOnHomepage: function() {
-      wpcf7recaptcha.execute( actions[ 'homepage' ] );
-    },
-
-    executeOnContactform: function() {
-      wpcf7recaptcha.execute( actions[ 'contactform' ] );
-    },
-
-  };
-
-  grecaptcha.ready(
-    wpcf7recaptcha.executeOnHomepage
-  );
-
-  document.addEventListener( 'change',
-    wpcf7recaptcha.executeOnContactform, false
-  );
-
-  document.addEventListener( 'wpcf7submit',
-    wpcf7recaptcha.executeOnHomepage, false
-  );
-
-} )(
-  grecaptcha,
-  '6LcFLYUUAAAAAIdi52qzcnxQcM5Evwj3sDpY5GUj',
-  {"homepage":"homepage","contactform":"contactform"}
-);
-</script>
-<div id="tc-footer-btt-wrapper" class="tc-btt-wrapper right"><i class="btt-arrow"></i></div>  </body>
-  </html>
+</html>
