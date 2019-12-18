@@ -24,29 +24,34 @@
         <div class="modal-content">
           <div class="modal-header">       
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+            <h4 class="modal-title">Registrarse</h4>
           </div>
           <div class="modal-body">
-            <form action="" method="post">
+            <form action="indexSolicitante.php" method="post">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" class="form-control" name="txtnombre" placeholder="Nombre completo" required="required" style="width: 90%;">
+                </div>
+              </div>
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                  <input type="text" class="form-control" name="txtCorreoE" placeholder="Correo electrónico" required="required" style="width: 90%;">
+                  <input type="text" class="form-control" name="txtcorreoE" placeholder="Correo electrónico" required="required" style="width: 90%;">
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" name="txtContrasena" placeholder="Contraseña" required="required" style="width: 90%;">
+                  <input type="password" class="form-control" name="txtcontrasena" placeholder="Contraseña" required="required" style="width: 90%;">
                 </div>
               </div>
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block btn-lg" >Ingresar</button>
+                <button type="submit" class="btn btn-primary btn-block btn-lg" >Registrarse</button>
               </div>
-              <p class="hint-text"><a href="">Olvidaste tu contrase&ntilde;a&#63;</a></p>
             </form>
           </div>
-          <div class="modal-footer">No te has registrado a&uacute;n&#63; <a href="registrarseVisitante.php">Hazlo ahora</a>
+          <div class="modal-footer"> <a href="#"></a>
           </div>
         </div>
       </div>

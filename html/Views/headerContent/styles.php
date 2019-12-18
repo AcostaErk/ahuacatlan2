@@ -110,6 +110,7 @@
           {
             font-size:14px;
             line-height:22px;
+            width:400px;
           }
         }
             
@@ -129,6 +130,7 @@
           {
             font-size:13px;
             line-height:20px;
+            width:400px;
           }
         }
             
@@ -148,6 +150,7 @@
           {
             font-size:12px;
             line-height:19px;
+            width:400px;
           }
         }
             
@@ -167,6 +170,7 @@
           {
             font-size:14px;
             line-height:22px;
+            width:400px;
           }
         }
             

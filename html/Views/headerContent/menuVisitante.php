@@ -23,7 +23,7 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170" >
-                      <a  href="#iniciarSesion" class="trigger-btn"  data-toggle="modal">
+                      <a  href="../Views/registrarseVisitante.php" class="trigger-btn"  data-toggle="modal">
                         Registrarse
                       </a>
                     </li>
