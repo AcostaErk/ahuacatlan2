@@ -7,7 +7,7 @@
               </li>
 
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
-                <a href="">
+                <a href="#iniciarSesion" class="trigger-btn" data-toggle="modal">
                   Iniciar sesi&oacute;n
                 </a>  
               </li>
@@ -18,3 +18,5 @@
               </li>
             </ul>
           </div>
+
+          
