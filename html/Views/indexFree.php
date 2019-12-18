@@ -1,3 +1,8 @@
+<?php
+include 'metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+ ?>
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
 
@@ -146,15 +151,10 @@
   <?php
   include 'footer.php';
 
-  ?> 
+  ?>
 
 </html>
   ?>
   <?php
-  include 'ventanasModales.php';
+  //include 'ventanasModales.php';
   ?>
-
-
-
-</html>
-

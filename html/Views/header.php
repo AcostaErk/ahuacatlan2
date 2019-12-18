@@ -42,24 +42,34 @@
                   </a>
                   <a rel="nofollow" class="social-icon icon-mail-o"  title="Email" aria-label="Email" href="mailto:ahuacatlanavanza@gmail.com"  target="_blank"  style="color:#f51818;font-size:12px"><i class="fa fa-envelope-o"></i>
                   </a>
+
+                  <?php //Para mostrar el nombre
+                  if($rolUsuarioSesion!=0){//No mostrar si usario sin registrar
+
+                    ?>
+                      Bienvenido <?php echo $nombreUsuarioSesion ?>
+                    <?php
+                    }
+                   ?>
+
                 </div>
               </div>
 
               <?php
-              $rol=99;
-              if($rol==1)
+
+              if($rolUsuarioSesion==1)
               {
                 include 'headerContent/menuOficialia.php';
               }
-              else if ($rol==2)
+              else if ($rolUsuarioSesion==2)
               {
                 include 'headerContent/menuSecretaria.php';
               }
-              else if ($rol==3)
+              else if ($rolUsuarioSesion==3)
               {
                 include 'headerContent/menuDepartamentos.php';
               }
-              else if ($rol==4)
+              else if ($rolUsuarioSesion==4)
               {
                 include 'headerContent/menuSolicitante.php';
               }

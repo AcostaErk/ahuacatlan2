@@ -18,9 +18,11 @@ class CreacionTablaUsuario extends Migration
 			$table->String('correo',45);
 			$table->String('nombre',45);
 			$table->String('password',45);
-             $table-> bigInteger('fkDependencia')->unsigned();
+            $table-> bigInteger('fkDependencia')->unsigned();
+			$table-> bigInteger('fkRol')->unsigned();
 			 
             $table-> foreign('fkDependencia')->references('idDependencia')->on('dependencia');
+			$table-> foreign('fkRol')->references('idRol')->on('rol');
 			
             $table->engine = "InnoDB";
         });
