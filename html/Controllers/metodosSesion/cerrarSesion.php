@@ -7,5 +7,5 @@ unset($_SESSION["nombreUsuario"]);
 $_SESSION["rol"]=0;
 unset($_SESSION["rol"]);
 
-header("Location: ../index.php");
+header("Location: ../../index.php");
  ?>

@@ -1,5 +1,5 @@
 <?php
-include 'metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
  ?>
 
 

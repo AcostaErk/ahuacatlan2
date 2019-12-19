@@ -1,7 +1,7 @@
 <?php
-include 'metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=0){//Comprobamos que podamos accedar aqui
-header("Location: index.php");
+header("Location: ../index.php");
 }
 
  ?>
@@ -35,7 +35,7 @@ header("Location: index.php");
             <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
           </div>
           <div class="modal-body">
-            <form action="metodosDB/comprobar_tabla_usuario.php" method="post">
+            <form action="../Controllers/metodosDB/comprobar_tabla_usuario.php" method="post">
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>

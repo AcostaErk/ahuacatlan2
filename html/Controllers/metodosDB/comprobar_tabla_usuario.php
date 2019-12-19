@@ -23,8 +23,8 @@ foreach ($resultado as $row) {
 
 if($nombre!="" and $fkRol!=""){
   include '..\metodosSesion\crearSesion.php';
-  header("Location: ../index.php");
+  header("Location: ../../index.php");
 } else{
-header("Location: ../login.php");
+header("Location: ../../Views/login.php");
 }
 ?>

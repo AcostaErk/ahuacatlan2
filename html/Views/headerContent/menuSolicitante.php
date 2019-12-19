@@ -21,7 +21,7 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a  href="metodosSesion/cerrarSesion.php" title="Secretar&iacute;a">
+                      <a  href="../Controllers/metodosSesion/cerrarSesion.php" title="Secretar&iacute;a">
                         Cerrar sesi&oacute;n
                       </a>
                     </li>

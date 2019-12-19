@@ -1,5 +1,5 @@
 <?php
-include 'metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
  ?>
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
@@ -30,8 +30,8 @@ include 'metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la s
             <h4 class="modal-title">Registrarse</h4>
           </div>
           <div class="modal-body">
-            <form action="metodosDB/insertar_tabla_usuario.php" method="post">
-              <input type="hidden"  name="txtPaginaRedireccion" value="../indexSolicitante.php">
+            <form action="../Controllers/metodosDB/insertar_tabla_usuario.php" method="post">
+              <input type="hidden"  name="txtPaginaRedireccion" value="../../Views/indexSolicitante.php">
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
