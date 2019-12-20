@@ -14,7 +14,7 @@
               </li>
 
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-172">
-                <a href="" title="Oficial&iacute;a">
+                <a href="../Views/perfil.php" title="Oficial&iacute;a">
                   Perfil
                 </a>  
               </li>

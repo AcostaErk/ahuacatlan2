@@ -1,34 +1,72 @@
-
 <!-- Modal / Ventana / Overlay en HTML -->
-<div id="iniciarSesion" class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      </div>
-      <div class="modal-body">
-        <form action="/examples/actions/confirmation.php" method="post">
-          <div class="form-group">
-            <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" name="username" placeholder="Correo electrónico" required="required" style="width: 90%;">
+<div id="editarNombre" class="modal fade">
+    <div class="modal-dialog-editar">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Editar Nombre</h4>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-              <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required" style="width: 90%;">
+
+            <form  action="" method="post" enctype="multipart/form-data">
+              <div class="modal-body">
+                <input type="hidden" name="txtidPersona" value="">
+                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+                <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
             </div>
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block btn-lg" >Ingresar</button>
-          </div>
-          <p class="hint-text"><a href="#">Olvidaste tu contrase&ntilde;a&#63;</a></p>
-        </form>
-      </div>
-      <div class="modal-footer">No te has registrado a&uacute;n&#63; <a href="#">Hazlo ahora</a>
-      </div>
+
+            <div class="modal-footer">
+          <button id="button" class="btn btn-primary" style="background-color: #003669; color: white;">Guardar Cambios</button>
+        </div>
+          </form>
+        </div>
     </div>
-  </div>
+</div>
+</div>
+
+<div id="editarCorreoE" class="modal fade">
+    <div class="modal-dialog-editar">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Editar Correo Electr&oacute;nico</h4>
+            </div>
+
+            <form  action="" method="post" enctype="multipart/form-data">
+              <div class="modal-body">
+                <input type="hidden" name="txtidPersona" value="">
+                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+                <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
+            </div>
+
+            <div class="modal-footer">
+          <button id="button" class="btn btn-primary" style="background-color: #003669; color: white;">Guardar Cambios</button>
+        </div>
+          </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="editarContrasena" class="modal fade">
+    <div class="modal-dialog-editar">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Editar Contrase&ntilde;a</h4>
+            </div>
+
+            <form  action="" method="post" enctype="multipart/form-data">
+              <div class="modal-body">
+                <input type="hidden" name="txtidPersona" value="">
+                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+                <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
+            </div>
+
+            <div class="modal-footer">
+          <button id="button" class="btn btn-primary" style="background-color: #003669; color: white;">Guardar Cambios</button>
+        </div>
+          </form>
+        </div>
+    </div>
+</div>
 </div>

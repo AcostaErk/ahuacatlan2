@@ -15,7 +15,7 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a href="" title="Usuario">
+                      <a href="../Views/perfil.php" title="Usuario">
                         Perfil
                       </a>
                     </li>
