@@ -1,3 +1,11 @@
+<?php
+include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+if($rolUsuarioSesion!=1){//Comprobamos que podamos accedar aqui
+header("Location: ../index.php");
+}
+?>
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
     
