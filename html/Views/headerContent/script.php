@@ -17,3 +17,11 @@
 <script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/?wpui-script=before&#038;ver=5.3.1'></script>
 <script type='text/javascript'></script>
 <script type='text/javascript' src='http://ahuacatlanavanza.gob.mx/wp-content/plugins/wp-ui/js/wp-ui.js?ver=0.8.8'></script>
+
+<script type="text/javascript">
+	function cambiar()
+	{
+    	var pdrs = document.getElementById('file-upload').files[0].name;
+    	document.getElementById('info').innerHTML = pdrs;
+	}
+</script>

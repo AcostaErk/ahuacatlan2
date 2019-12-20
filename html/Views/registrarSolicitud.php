@@ -1,3 +1,11 @@
+<?php
+include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+if($rolUsuarioSesion!=4){//Comprobamos que podamos accedar aqui
+header("Location: ../index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
     
@@ -48,27 +56,30 @@
               </div>
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                  <span class="input-group-addon"><i class="fa fa-road"></i></span>
                   <input type="text" class="form-control" name="txtDomicilio" placeholder="Domicilio del problema a reportar" required="required" style="width: 90%;">
                 </div>
               </div>
-              <div class="form-group"style="margin-bottom: 40px;">
+              <div class="form-group">
                 <div class="input-group">
-                  <div class="input-group-prepend">
-                    <select  name="fkproveedores" class="custom-select">
-                      <option selected>Selecciona la comunidad del problema</option>
-                    </select>
-                  </div>
+                  <span class="input-group-addon"><i class="fa fa-building"></i></span>
+                  <select  name="" class="custom-select">
+                    <option selected>Selecciona la comunidad del problema</option>
+                  </select>
                 </div>
               </div>
-              <div class="form-group" align="center">
-                <div class="photo">
-                  <div class="input-group">
-                    <span class="input-group-text">Introduce la fotografía de la solicitud  </span>
-                    <input multiple="multiple"  name="fotos[]" type="file">
-                  </div>
+              <div class="form-group" >
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fa fa-image"></i> </span>
+                   Introduce la fotografía de la solicitud 
+                  <label for="file-upload" class="subir" style="width: 20%;">
+                      <i class="fa fa-cloud-upload"></i> Subir archivo
+                  </label>
+                  <input id="file-upload" onchange='cambiar()' type="file" style='display: none;' />
+                  <div id="info"></div>
                 </div>
               </div>
+              <br><br>
               <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block btn-lg" >Enviar solicitud</button>
               </div>

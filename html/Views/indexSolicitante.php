@@ -4,7 +4,7 @@ if($rolUsuarioSesion!=4){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
 
- ?>
+?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
