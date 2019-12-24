@@ -154,7 +154,6 @@ include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los 
   ?>
 
 </html>
-  ?>
   <?php
   //include 'ventanasModales.php';
   ?>

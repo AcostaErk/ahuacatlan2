@@ -38,6 +38,12 @@ header("Location: ../index.php");
             <form action="indexSolicitante.php" method="post">
               <div class="form-group">
                 <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-barcode"></i></i></span>
+                  <input type="text" class="form-control" name="txtnombre" placeholder="Número de serie" required="required" style="width: 90%;">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
                   <input type="text" class="form-control" name="txtnombre" placeholder="Nombre completo del solicitante" required="required" style="width: 90%;">
                 </div>
