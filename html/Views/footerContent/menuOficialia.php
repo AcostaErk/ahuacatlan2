@@ -17,7 +17,7 @@
                     </a>
                     <ul class="sub-menu">
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-                          <a href="">
+                          <a href="../Views/registrarNuevoUsuario.php">
                              Registrar nuevo
                           </a>
                       </li>
