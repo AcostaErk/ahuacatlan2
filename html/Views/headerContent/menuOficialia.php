@@ -57,15 +57,51 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="" title="Oficial&iacute;a">
-                        Solicitudes Oficila&iacute;a
+                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                        Solicitudes
+                        <strong class="caret"></strong>
                       </a>
-                    </li>
+                      <ul class="dropdown-menu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children ">
+                          <a href="../Views/solicitudesVistaGeneral.php">
+                            Vista general
+                          </a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
+                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                            Oficial&iacute;a 
+                          </a>
+                        </li>
+                        
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1009">
+                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                            Secretar&iacute;a
+                          </a>
+                        </li>
 
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="" title="Secretar&iacute;a">
-                        Solicitudes Secretr&iacute;a
-                      </a>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown-submenu menu-item-1009">
+                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                            Departamentos
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
+                              <a href="">
+                                Departamento 1
+                              </a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
+                              <a href="">
+                                Departamento 2
+                              </a>
+                            </li>
+                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
+                              <a href="">
+                                Departamento 3
+                              </a>
+                            </li>
+                          </ul>
+                        </li>                       
+                      </ul>
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
