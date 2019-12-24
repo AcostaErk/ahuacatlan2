@@ -15,7 +15,7 @@
                       </a>
                       <ul class="dropdown-menu">
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children ">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                          <a href="../Views/registrarNuevoUsuario.php">
                             Registrar nuevo usuario
                           </a>
                         </li>
