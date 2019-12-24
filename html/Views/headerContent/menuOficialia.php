@@ -171,7 +171,13 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="" title="Secretar&iacute;a">
+                      <a href="../Views/perfil.php" title="">
+                        Perfil
+                      </a>
+                    </li>
+
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
+                      <a href="../Controllers/metodosSesion/cerrarSesion.php" title="">
                         Cerrar sesi&oacute;n
                       </a>
                     </li>

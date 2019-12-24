@@ -64,28 +64,28 @@ include 'footerContent/script.php';
           </h3>
 
           <?php
-          $rol=99;
-          if($rol==1)
-           {
-            include 'footerContent/menuOficialia.php';
-          }
-          else if ($rol==2)
-          {
-            include 'footerContent/menuSecretaria.php';
-          }
-          else if ($rol==3)
-          {
-            include 'footerContent/menuDepartamentos.php';
-          }
-          else if ($rol==4)
-          {
-            include 'footerContent/menuSolicitante.php';
-          }
-          else
-          {
-            include 'footerContent/menuVisitante.php';
-          }
-          ?>
+
+              if($rolUsuarioSesion==1)
+              {
+                include 'footerContent/menuOficialia.php';
+              }
+              else if ($rolUsuarioSesion==2)
+              {
+                include 'footerContent/menuSecretaria.php';
+              }
+              else if ($rolUsuarioSesion==3)
+              {
+                include 'footerContent/menuDepartamentos.php';
+              }
+              else if ($rolUsuarioSesion==4)
+              {
+                include 'footerContent/menuSolicitante.php';
+              }
+              else
+              {
+                include 'footerContent/menuVisitante.php';
+              }
+              ?>
         </aside>
       </div><!-- .{$key}_widget_class -->
 

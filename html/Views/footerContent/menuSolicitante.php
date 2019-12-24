@@ -18,11 +18,5 @@
                   Perfil
                 </a>  
               </li>
-
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-385">
-                <a href="">
-                  Cerrar sesi&oacute;n
-                </a>
-              </li>
             </ul>
           </div>

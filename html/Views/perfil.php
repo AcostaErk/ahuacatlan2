@@ -1,7 +1,11 @@
 <?php
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
-if($rolUsuarioSesion!=4){//Comprobamos que podamos accedar aqui
-header("Location: ../index.php");
+if($rolUsuarioSesion ==1 or $rolUsuarioSesion==2 or $rolUsuarioSesion==3 or $rolUsuarioSesion==4  ){//Comprobamos que podamos accedar aqui
+
+}
+else
+{
+  header("Location: ../index.php");
 }
 
  ?>
@@ -43,7 +47,7 @@ header("Location: ../index.php");
             </h4>
           </div>
           <div class="modal-body">
-              <input type="hidden"  name="txtPaginaRedireccion" value="../../Views/indexSolicitante.php">
+              <!-- <input type="text"  name="txtPaginaRedireccion" value="../../Views/indexSolicitante.php"> -->
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
