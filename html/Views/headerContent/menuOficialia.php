@@ -20,7 +20,7 @@
                           </a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                          <a  href="../Views/verUsuario.php">
                             Oficial&iacute;a 
                           </a>
                         </li>
