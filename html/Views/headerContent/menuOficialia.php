@@ -68,13 +68,13 @@
                           </a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                          <a href="../Views/solicitudesDepartamentos.php">
                             Oficial&iacute;a 
                           </a>
                         </li>
                         
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1009">
-                          <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
+                          <a href="../Views/solicitudesDepartamentos.php">
                             Secretar&iacute;a
                           </a>
                         </li>
@@ -85,17 +85,17 @@
                           </a>
                           <ul class="dropdown-menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
-                              <a href="">
+                              <a href="../Views/solicitudesDepartamentos.php">
                                 Departamento 1
                               </a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="">
+                              <a href="../Views/solicitudesDepartamentos.php">
                                 Departamento 2
                               </a>
                             </li>
                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="">
+                              <a href="../Views/solicitudesDepartamentos.php">
                                 Departamento 3
                               </a>
                             </li>

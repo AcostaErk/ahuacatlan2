@@ -32,37 +32,6 @@ header("Location: ../index.php");
       <table class="rwd_auto fontsize" style="width: 80%">
         <thead >
           <tr>
-            <th><a href="../Views/solicitudesDepartamentos.php" style="color: gray ;">Oficial&iacute;a</button></th>
-            <th><a href="../Views/solicitudesDepartamentos.php" style="color: gray ;">Secretar&iacute;a</button></th>
-            <th><a href="../Views/solicitudesDepartamentos.php" style="color: gray ;">Departamento 1</button></th>
-            <th><a href="../Views/solicitudesDepartamentos.php" style="color: gray ;">Departamento 2</button></th>
-            <th><a href="../Views/solicitudesDepartamentos.php" style="color: gray ;">Departamento 3</button></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>99</td>
-            <td>80</td>
-            <td>15</td>
-            <td>5</td>
-          </tr>
-        </tbody>
-
-        <thead>
-          <tr>
-            <th><a href="" style="color: gray ;">Departamento 4</button></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>99</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <table class="rwd_auto fontsize" style="width: 80%">
-        <thead >
-          <tr>
             <th><a href="" >Folio</th>
             <th><a href="" >Estatus</th>
             <th><a href="" >Solicitante</th>
@@ -78,7 +47,7 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento 1</td>
+            <td>Departamento X</td>
           </tr>
           <tr>
             <td>00002/01/2020</td>
@@ -86,7 +55,7 @@ header("Location: ../index.php");
             <td>Javier Agustin Ramirez Martinez</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento 4</td>
+            <td>Departamento X</td>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -94,7 +63,7 @@ header("Location: ../index.php");
             <td>Ramón Alfredo Diaz Espinoza</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento 4</td>
+            <td>Departamento X</td>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -102,7 +71,7 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento 4</td>
+            <td>Departamento X</td>
           </tr>
         </tbody>
       </table>
