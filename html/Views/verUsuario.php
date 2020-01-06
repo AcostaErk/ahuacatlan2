@@ -14,7 +14,7 @@ header("Location: ../index.php");
   ?>
 
   <body class="home blog tc-fade-hover-links tc-no-sidebar tc-center-images skin-red tc-sticky-header sticky-disabled tc-transparent-on-scroll tc-regular-menu tc-post-list-context" itemscope itemtype="http://schema.org/WebPage">
-    <div id="tc-page-wrap" class="">
+    <div id="tc-page-wrap">
       <div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px">   
       </div>   
       <div id="customizr-slider-1" class="carousel customizr-slide sliderfinal parallax-wrapper">
@@ -30,30 +30,45 @@ header("Location: ../index.php");
         <span><h1>LISTADO DE USUARIOS</h1></span>
         <br><br>
         <div class="container">
-
-          <div class="row">
-            <div class="col-md-2">Nombre</div>
-            <div class="col-md-3">Correo</div>
-            <div class="col-md-3">Contrase&ntilde;a</div>
-            <div class="col-3">Departamento</div>
-
-          </div>
-          <div class="row">
-            <div class="col-md-2">Samuel Mojarro Ornelas</div>
-            <div class="col-md-3">Samuel-123@hotmail.com</div>
-            <div class="col-md-3">1234</div>
-            <div class="col-md-3"> Oficial&iacute;a </div>
-            <div class="col-3">
-              <form action="modificarUsuarioAdm" method="post" enctype="multipart/form-data">
-                {{ csrf_field() }}
-                <input type="hidden" name="id" value={{ $usuarios->idpersona }}>
-                  <CENTER> 
-                    <button type="submit" class="btn btn-primary btn-block">Modificar</button>  
-                  </CENTER>
-              </form>
-            </div>
-          </div>
-        </center> 
+          <table class="rwd_auto fontsize" style="width: 80%">
+            <thead>
+              <tr>
+               <th><a href="" style="color: gray ;">Nombre</button></th>
+               <th><a href="" style="color: gray ;">Correo</button></th>
+               <th><a href="" style="color: gray ;">Contrase&ntilde;a</button></th>
+               <th><a href="" style="color: gray ;"></button></th>
+               <th><a href="" style="color: gray ;"></button></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Samuel Mojarro Ornelas</td>
+                <td>Samuel-123@hotmail.com</td>
+                <td>1234</td>
+                <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
+                <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
+              </tr>
+            </tbody>
+             <tbody>
+              <tr>
+                <td>Javier Ramirez Hernandez</td>
+                <td>Chubi-123@hotmail.com</td>
+                <td>56321</td>
+                <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
+                <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
+              </tr>
+            </tbody>
+             <tbody>
+              <tr>
+                <td>Juan Ramon del Rosarios</td>
+                <td>JuanRamonR_6@hotmail.com</td>
+                <td>juan123</td>
+                <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
+                <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
+              </tr>
+            </tbody>
+      </table>
+    </center> 
        
     </div><!-- //#tc-page-wrapper -->
 
