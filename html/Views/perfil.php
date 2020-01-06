@@ -83,7 +83,7 @@ else
 
   <?php
   include 'footer.php';
-  include 'ventanasModales.php'
+  include 'ventanasModales.php';
   ?>
 
 </html>

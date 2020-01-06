@@ -122,17 +122,17 @@
                           </a>
                           <ul class="dropdown-menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-                              <a href="">
+                              <a href="../Views/verDepartamento.php">
                                 Departamento 1
                               </a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
-                              <a href="">
+                              <a href="../Views/verDepartamento.php">
                                 Departamento 2
                               </a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
-                              <a href="">
+                              <a href="../Views/verDepartamento.php">
                                 Departamento 3
                               </a>
                             </li>
