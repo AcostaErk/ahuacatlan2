@@ -100,6 +100,7 @@
   </div>
 </div>
 
+<!-- Modales referente a Edicion de Departamento -->
 <div id="editarNombreDepartamento" class="modal fade">
     <div class="modal-dialog-editar">
         <div class="modal-content">
@@ -123,3 +124,4 @@
     </div>
   </div>
 </div>
+<!-- Fin Modales referente a Edicion de Departamento -->

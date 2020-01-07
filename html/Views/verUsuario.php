@@ -1,4 +1,5 @@
 <?php
+ include '..\Controllers\metodosDB\tabla_usuario.php';
 include 'rutasCarpeta.php'; //sss
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=1){//Comprobamos que podamos accedar aqui
@@ -41,32 +42,24 @@ header("Location: ../index.php");
                <th><a href="" style="color: gray ;"></button></th>
               </tr>
             </thead>
+
             <tbody>
+              <?php
+              $Depa=$_GET["Depa"];
+              $resultado=usuario_mostrarPorDependencia($Depa);
+                foreach ($resultado as $row) {
+                  $usuario_correo=$row['correo'];
+                  $usuario_nombre=$row['nombre'];
+                  $usuario_password=$row['password'];
+               ?>
               <tr>
-                <td>Samuel Mojarro Ornelas</td>
-                <td>Samuel-123@hotmail.com</td>
-                <td>1234</td>
+                <td><?php echo  $usuario_nombre?></td>
+                <td><?php echo $usuario_correo ?></td>
+                <td><?php echo $usuario_password ?></td>
                 <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
                 <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
               </tr>
-            </tbody>
-             <tbody>
-              <tr>
-                <td>Javier Ramirez Hernandez</td>
-                <td>Chubi-123@hotmail.com</td>
-                <td>56321</td>
-                <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
-                <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
-              </tr>
-            </tbody>
-             <tbody>
-              <tr>
-                <td>Juan Ramon del Rosarios</td>
-                <td>JuanRamonR_6@hotmail.com</td>
-                <td>juan123</td>
-                <td><button type="submit" class="btn btn-primary btn-block">Modificar</button></td>
-                <td><button type="submit" class="btn btn-primary btn-block">Eliminar</button></td>
-              </tr>
+            <?php  }   ?>
             </tbody>
       </table>
     </center>

@@ -15,7 +15,7 @@ header("Location: ../index.php");
   ?>
 
   <body class="home blog tc-fade-hover-links tc-no-sidebar tc-center-images skin-red tc-sticky-header sticky-disabled tc-transparent-on-scroll tc-regular-menu tc-post-list-context" itemscope itemtype="http://schema.org/WebPage">
-    <div id="tc-page-wrap">
+    <div id="tc-page-wrap" class="">
       <div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px">
       </div>
       <div id="customizr-slider-1" class="carousel customizr-slide sliderfinal parallax-wrapper">
@@ -28,7 +28,7 @@ header("Location: ../index.php");
       </div><!-- /#customizr-slider -->
 
       <center>
-        <span><h1>LISTADO DE USUARIOS</h1></span>
+        <span><h1>LISTADO DE DEPARTAMENTOS</h1></span>
         <br><br>
         <div class="container">
           <table class="rwd_auto fontsize" style="width: 80%">
@@ -39,26 +39,24 @@ header("Location: ../index.php");
                <th><a href="" style="color: gray ;"></button></th>
               </tr>
             </thead>
+
+            <?php
+            $Depa=$_GET["Depa"];
+            $resultado=dependencia_mostrarPorDependencia($Depa);
+
+            foreach ($resultado as $row) {
+                $nombre_Dependencia= $row['nombre'];
+
+             ?>
+
             <tbody>
               <tr>
-                <td>Departamento X</td>
+                <td><?php echo  $nombre_Dependencia ?></td>
                 <td> <a href="#editarNombreDepartamento" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a></td>
                 <td><button type="submit" class="btn btn-primary btn-block"><i class="fa fa-trash"></i></button></td>
               </tr>
-            </tbody>
-             <tbody>
-              <tr>
-                <td>Departamento X</td>
-                <td> <a href="#editarNombreDepartamento" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a></td>
-                <td><button type="submit" class="btn btn-primary btn-block"><i class="fa fa-trash"></i></button></td>
-              </tr>
-            </tbody>
-             <tbody>
-              <tr>
-                <td>Departamento X</td>
-                <td> <a href="#editarNombreDepartamento" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a></td>
-                <td><button type="submit" class="btn btn-primary btn-block"><i class="fa fa-trash"></i></button></td>
-              </tr>
+
+          <?php }  ?>
             </tbody>
       </table>
     </center>
