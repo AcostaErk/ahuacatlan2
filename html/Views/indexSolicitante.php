@@ -1,4 +1,5 @@
 <?php
+include 'rutasCarpeta.php'; //sss
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=4){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");

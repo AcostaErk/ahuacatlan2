@@ -1,6 +1,7 @@
 <?php
 //Todo lo de aqui solo es para redireccionar a los diferentes indexes y darle un uso al index normal
-  
+
+  $rutaDependiendoPagina='Controllers\metodosDB\conexionDB.php';//La posicion de las carpetas es relativo a los include tambien.
 include 'Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 
 if($rolUsuarioSesion==1)

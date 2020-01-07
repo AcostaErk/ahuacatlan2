@@ -1,7 +1,7 @@
 <?php
-session_start();
-if(isset($_SESSION["correo"])){
-$sesionCorreo=$_SESSION["correo"];
+include 'conexionDB.php';
+
+
 
  include $rutaDependiendoPagina;
 
@@ -13,21 +13,13 @@ $sentencia = $conexionDB->prepare("select * from usuario where correo = :sesionC
 $sentencia->execute(array(':sesionCorreo' =>$sesionCorreo));
 $resultado=$sentencia->fetchAll();
 foreach ($resultado as $row) {
-    $nombre= $row['nombre'];
-    $fkRol= $row['fkRol'];
+    $nombre_Usuario= $row['nombre'];
+    $idUsuario_Usuario= $row['idUsuario'];
+	$password_Usuario=$row['password'];
+	$correo_Usuario=$row['correo'];
 
 
     }	
 	
 	
-	
-$nombreUsuarioSesion=$nombre;
-$rolUsuarioSesion=$fkRol;
-
-
-}else{
-  $nombreUsuarioSesion="";
-  $rolUsuarioSesion=0;
-}
-
- ?>
+?>

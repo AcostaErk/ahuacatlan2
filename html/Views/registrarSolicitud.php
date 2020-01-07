@@ -1,4 +1,5 @@
 <?php
+include 'rutasCarpeta.php'; //sss
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=4){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
@@ -8,15 +9,15 @@ header("Location: ../index.php");
 
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
-    
+
  	<?php
  		 include 'header.php';
  	?>
 
 	<body class="home blog tc-fade-hover-links tc-no-sidebar tc-center-images skin-red tc-sticky-header sticky-disabled tc-transparent-on-scroll tc-regular-menu tc-post-list-context" itemscope itemtype="http://schema.org/WebPage">
    	<div id="tc-page-wrap" class="">
-			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px">   
-      </div>   
+			<div id="tc-reset-margin-top" class="container-fluid" style="margin-top:103px">
+      </div>
 			<div id="customizr-slider-1" class="carousel customizr-slide sliderfinal parallax-wrapper">
         <div id="tc-slider-loader-wrapper-1" class="tc-slider-loader-wrapper">
       		<div class="tc-img-gif-loader">
@@ -27,10 +28,10 @@ header("Location: ../index.php");
    		</div><!-- /#customizr-slider -->
 
     	<center>
-      <br>		
+      <br>
       <div class="solicitud" style=" border-color: gray; border:solid; border-radius: 10px">
         <div class="modal-content">
-          <div class="modal-header">       
+          <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <h4 class="modal-title">Llenado de solicitud</h4>
           </div>
@@ -77,7 +78,7 @@ header("Location: ../index.php");
               <div class="form-group" >
                 <div class="input-group">
                   <span class="input-group-text"><i class="fa fa-image"></i> </span>
-                   Introduce la fotografía de la solicitud 
+                   Introduce la fotografía de la solicitud
                   <label for="file-upload" class="subir" style="width: 20%;">
                       <i class="fa fa-cloud-upload"></i> Subir archivo
                   </label>
@@ -104,6 +105,6 @@ header("Location: ../index.php");
 
   <?php
   include 'footer.php';
-  ?> 
+  ?>
 
 </html>

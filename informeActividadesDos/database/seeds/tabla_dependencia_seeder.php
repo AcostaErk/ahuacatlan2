@@ -17,8 +17,21 @@ class tabla_dependencia_seeder extends Seeder
         DB::table('dependencia')-> insert(array(
 		'nombre'=>'Solicitante',
 		));
-      
-	  
+
+    DB::table('dependencia')-> insert(array(
+  'nombre'=>'Secretaria',
+  ));
+
+  DB::table('dependencia')-> insert(array(
+'nombre'=>'Oficialia',
+));
+
+DB::table('dependencia')-> insert(array(
+'nombre'=>'CFE',
+));
+
+
+
 
     }
 }

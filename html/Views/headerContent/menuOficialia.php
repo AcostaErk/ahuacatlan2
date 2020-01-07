@@ -7,7 +7,7 @@
                         Inicio
                       </a>
                     </li>
-                    
+
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
                       <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
                         Usuarios
@@ -21,10 +21,10 @@
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
                           <a  href="../Views/verUsuario.php">
-                            Oficial&iacute;a 
+                            Oficial&iacute;a
                           </a>
                         </li>
-                        
+
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1009">
                           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="../Views/verUsuario.php">
                             Secretar&iacute;a
@@ -35,24 +35,28 @@
                           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
                             Departamentos
                           </a>
-                          <ul class="dropdown-menu">
+
+													  <ul class="dropdown-menu">
+													<?php
+													include '..\Controllers\metodosDB\tabla_dependencia.php';
+													foreach ($resultado as $row) {
+													    $nombre_Dependencia= $row['nombre'];
+
+													 ?>
+
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
                               <a href="../Views/verUsuario.php">
-                                Departamento 1
+                                <?php echo $nombre_Dependencia ?>
                               </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="../Views/verUsuario.php">
-                                Departamento 2
-                              </a>
-                            </li>
-                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="../Views/verUsuario.php">
-                                Departamento 3
-                              </a>
-                            </li>
+														</li>
+                          <?php
+													}
+													 ?>
+
                           </ul>
-                        </li>                       
+													</li>
+
+
                       </ul>
                     </li>
 
@@ -69,10 +73,10 @@
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
                           <a href="../Views/solicitudesDepartamentos.php">
-                            Oficial&iacute;a 
+                            Oficial&iacute;a
                           </a>
                         </li>
-                        
+
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1009">
                           <a href="../Views/solicitudesDepartamentos.php">
                             Secretar&iacute;a
@@ -83,26 +87,29 @@
                           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
                             Departamentos
                           </a>
-                          <ul class="dropdown-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
-                              <a href="../Views/solicitudesDepartamentos.php">
-                                Departamento 1
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="../Views/solicitudesDepartamentos.php">
-                                Departamento 2
-                              </a>
-                            </li>
-                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6790">
-                              <a href="../Views/solicitudesDepartamentos.php">
-                                Departamento 3
-                              </a>
-                            </li>
-                          </ul>
-                        </li>                       
-                      </ul>
-                    </li>
+													<ul class="dropdown-menu">
+												<?php
+												include '..\Controllers\metodosDB\tabla_dependencia.php';
+												foreach ($resultado as $row) {
+														$nombre_Dependencia= $row['nombre'];
+
+												 ?>
+
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
+														<a href="../Views/solicitudesDepartamentos.php">
+															<?php echo $nombre_Dependencia ?>
+														</a>
+													</li>
+												<?php
+												}
+												 ?>
+
+												</ul>
+												</li>
+
+
+										</ul>
+									</li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
                       <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
@@ -120,27 +127,29 @@
                           <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="">
                             Ver departamentos
                           </a>
-                          <ul class="dropdown-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002">
-                              <a href="../Views/verDepartamento.php">
-                                Departamento 1
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001">
-                              <a href="../Views/verDepartamento.php">
-                                Departamento 2
-                              </a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
-                              <a href="../Views/verDepartamento.php">
-                                Departamento 3
-                              </a>
-                            </li>
+													<ul class="dropdown-menu">
+												<?php
+												include '..\Controllers\metodosDB\tabla_dependencia.php';
+												foreach ($resultado as $row) {
+														$nombre_Dependencia= $row['nombre'];
 
-                          </ul>
-                        </li>               
-                      </ul>
-                    </li>
+												 ?>
+
+													<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
+														<a href="../Views/verDepartamento.php">
+															<?php echo $nombre_Dependencia ?>
+														</a>
+													</li>
+												<?php
+												}
+												 ?>
+
+												</ul>
+												</li>
+
+
+										</ul>
+									</li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
                       <a href="../Views/perfil.php" title="">

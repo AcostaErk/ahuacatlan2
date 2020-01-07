@@ -1,4 +1,6 @@
 <!-- Modal / Ventana / Overlay en HTML -->
+
+<!-- Modales referente a Edicion de Usuario -->
 <div id="editarNombre" class="modal fade">
     <div class="modal-dialog-editar">
         <div class="modal-content">
@@ -7,10 +9,11 @@
               <h4 class="modal-title">Editar Nombre</h4>
             </div>
 
-            <form  action="" method="post" enctype="multipart/form-data">
+            <form  action="../Controllers/metodosDB/actualizar_tabla_usuario.php" method="post" enctype="multipart/form-data">
               <div class="modal-body">
-                <input type="hidden" name="txtidPersona" value="">
-                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+			   <input type="hidden" name="txtCampoSeleccionado" value="1">
+                <input type="hidden" name="txtidPersona" value="<?php echo $idUsuario_Usuario ?>">
+                <input id="" type="text" name="txtUsuario"  value="<?php echo $nombre_Usuario ?>" autofocus="value"  pattern="[A-Za-z\s]+" required="" maxlength="45" onkeypress="">
                 <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
             </div>
 
@@ -31,10 +34,11 @@
               <h4 class="modal-title">Editar Correo Electr&oacute;nico</h4>
             </div>
 
-            <form  action="" method="post" enctype="multipart/form-data">
+            <form  action="../Controllers/metodosDB/actualizar_tabla_usuario.php" method="post" enctype="multipart/form-data">
               <div class="modal-body">
-                <input type="hidden" name="txtidPersona" value="">
-                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+			   <input type="hidden" name="txtCampoSeleccionado" value="2">
+                <input type="hidden" name="txtidPersona" value="<?php echo $idUsuario_Usuario ?>">
+                <input id="" type="email" name="txtCorreo"  value="<?php echo $correo_Usuario ?>" autofocus="value"   required="" maxlength="" onkeypress="">
                 <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
             </div>
 
@@ -55,10 +59,11 @@
               <h4 class="modal-title">Editar Contrase&ntilde;a</h4>
             </div>
 
-            <form  action="" method="post" enctype="multipart/form-data">
+           <form  action="../Controllers/metodosDB/actualizar_tabla_usuario.php" method="post" enctype="multipart/form-data">
               <div class="modal-body">
-                <input type="hidden" name="txtidPersona" value="">
-                <input id=""type="text" name="txtContrasena"  value="" autofocus="value"  pattern="" required="" maxlength="" onkeypress="">
+			  <input type="hidden" name="txtCampoSeleccionado" value="3">
+                <input type="hidden" name="txtidPersona" value="<?php echo $idUsuario_Usuario ?>">
+                <input id=""type="password" name="txtContrasena"  value="<?php echo $password_Usuario ?>" autofocus="value"  pattern="[A-Za-z0-9\s]+" required="" maxlength="" onkeypress="">
                 <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
             </div>
 
@@ -70,6 +75,7 @@
     </div>
   </div>
 </div>
+<!--Fin Modales referente a Edicion de Usuario -->
 
 <div id="usuarioContraInvalidas" class="modal fade">
     <div class="modal-dialog-editar">
