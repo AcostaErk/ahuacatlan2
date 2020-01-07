@@ -2,13 +2,35 @@
 include 'rutasCarpeta.php'; //sss
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion ==1 or $rolUsuarioSesion==2 or $rolUsuarioSesion==3 or $rolUsuarioSesion==4  ){//Comprobamos que podamos accedar aqui
-include '..\Controllers\metodosDB\obtener_tabla_usuario.php';//Obtenemos los valores de la sesion
+include '..\Controllers\metodosDB\tabla_usuario.php';
+
 }
 else
 {
   header("Location: ../index.php");
 }
 
+ ?>
+
+<?php
+//Seccion de la actualizacion
+if(isset($_POST["txtidPersona"])){
+  $idUsuario=$_POST["txtidPersona"];
+
+
+if(isset($_POST["txtUsuario"])) {
+  $nombre=$_POST["txtUsuario"];
+  usuario_actualizarNombre($idUsuario,$nombre);
+} else if(isset($_POST["txtCorreo"])){
+  $correo=$_POST["txtCorreo"];
+  usuario_actualizarCorreo($idUsuario,$correo);
+}else if(isset($_POST["txtContrasena"])){
+  $contrasena=$_POST["txtContrasena"];
+  usuario_actualizarPassword($idUsuario,$contrasena);
+}
+ header("Location: perfil.php");
+}
+//Seccion de insercion
  ?>
 
 <!DOCTYPE html>
@@ -48,26 +70,37 @@ else
               ?>
             </h4>
           </div>
+          
+          <?php
+            $resultado=usuario_mostrarPorCorreo($_SESSION["correo"]);
+            foreach ($resultado as $row) {
+              $usuario_id=$row["idUsuario"];
+              $usuario_nombre=$row["nombre"];
+              $usuario_correo=$row["correo"];
+              $usuario_password=$row["password"];
+            }
+           ?>
+
           <div class="modal-body">
               <!-- <input type="text"  name="txtPaginaRedireccion" value="../../Views/indexSolicitante.php"> -->
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                  <input type="text" class="form-control" name="txtnombre" placeholder="<?php echo $nombre_Usuario ?>" readonly="true" required="required" style="width: 80%;">
+                  <input type="text" class="form-control" name="txtnombre" placeholder="<?php echo  $usuario_nombre?>" readonly="true" required="required" style="width: 80%;">
                   <a href="#editarNombre" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a>
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                  <input type="text" class="form-control" name="txtcorreoE" placeholder="<?php echo $correo_Usuario ?>" readonly="true" required="required" style="width: 79%;">
+                  <input type="text" class="form-control" name="txtcorreoE" placeholder="<?php echo $usuario_correo ?>" readonly="true" required="required" style="width: 79%;">
                   <a href="#editarCorreoE" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a>
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" name="txtcontrasena"  placeholder="<?php echo $password_Usuario ?>" readonly="true" required="required" style="width: 79%;">
+                  <input type="password" class="form-control" name="txtcontrasena"  placeholder="<?php echo  $usuario_password?>" readonly="true" required="required" style="width: 79%;">
                   <a href="#editarContrasena" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a>
                 </div>
               </div>

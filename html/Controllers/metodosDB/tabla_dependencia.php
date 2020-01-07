@@ -1,5 +1,16 @@
 <?php
 
+function dependencia_insertar($nombreDependencia){
+  include 'conexionDB.php';
+
+  //Preparar sentencia con sus parametros
+  $sentencia = $conexionDB->prepare("INSERT INTO dependencia (nombre)
+  VALUES (?)");
+  $sentencia->bindParam(1, $nombreDependencia);
+
+  // insertar una fila
+  $sentencia->execute();
+}
 
 
 function dependencia_mostrarTodo()

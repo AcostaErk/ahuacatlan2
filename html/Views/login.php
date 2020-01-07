@@ -4,8 +4,34 @@ include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los 
 if($rolUsuarioSesion!=0){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
-
  ?>
+
+
+ <?php
+ //Seccion del Login
+ if( isset($_POST["txtCorreoE"]) and isset($_POST["txtContrasena"]) ) {
+include '..\Controllers\metodosDB\tabla_usuario.php';
+
+ $correo=$_POST["txtCorreoE"];
+ $password=$_POST["txtContrasena"];
+
+ $resultado=usuario_Login($correo,$password);
+
+ foreach ($resultado as $row) {
+$nombre=$row["nombre"];
+$fkRol=$row["fkRol"];
+   }
+
+   if($nombre!="" and $fkRol!=""){
+     include '..\Controllers\metodosSesion\crearSesion.php';
+     header("Location: ../index.php");
+   } else{
+   header("Location: login.php");
+   }
+
+}
+ //Seccion del Login
+  ?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
@@ -36,7 +62,7 @@ header("Location: ../index.php");
             <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
           </div>
           <div class="modal-body">
-            <form action="../Controllers/metodosDB/comprobar_tabla_usuario.php" method="post">
+            <form action="login.php" method="post">
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>

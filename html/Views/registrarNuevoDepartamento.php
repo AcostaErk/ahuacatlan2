@@ -6,6 +6,17 @@ header("Location: ../index.php");
 }
 ?>
 
+<?php
+//Esta seccion es la insercion
+if(isset($_POST["txtnombre"])){
+include '..\Controllers\metodosDB\tabla_dependencia.php';
+$nombreDependencia=$_POST["txtnombre"];
+dependencia_insertar($nombreDependencia);
+header("Location: registrarNuevoDepartamento.php");
+ }
+ //Esta seccion es la insercion
+ ?>
+
 
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">
@@ -36,7 +47,7 @@ header("Location: ../index.php");
             <h4 class="modal-title">Nuevo Departamento</h4>
           </div>
           <div class="modal-body">
-            <form action="../Controllers/metodosDB/insertar_tabla_dependencia.php" method="post">
+            <form action="registrarNuevoDepartamento.php" method="post">
               <input type="hidden"  name="txtPaginaRedireccion" value="../../Views/registrarNuevoDepartamento.php">
               <div class="form-group">
                 <div class="input-group">
