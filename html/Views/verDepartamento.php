@@ -67,7 +67,7 @@ header("Location: ../index.php");
 
   <?php
   include 'footer.php';
-  include 'ventanasModales.php';
+  include 'Modales/edicionDepartamento.php';
   ?>
 
 </html>

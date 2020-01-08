@@ -70,7 +70,7 @@ if(isset($_POST["txtUsuario"])) {
               ?>
             </h4>
           </div>
-          
+
           <?php
             $resultado=usuario_mostrarPorCorreo($_SESSION["correo"]);
             foreach ($resultado as $row) {
@@ -118,7 +118,7 @@ if(isset($_POST["txtUsuario"])) {
 
   <?php
   include 'footer.php';
-  include 'ventanasModales.php';
+  include 'Modales/edicionPerfil.php';
   ?>
 
 </html>
