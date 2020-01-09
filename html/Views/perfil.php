@@ -100,7 +100,7 @@ if(isset($_POST["txtUsuario"])) {
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" name="txtcontrasena"  placeholder="<?php echo  $usuario_password?>" readonly="true" required="required" style="width: 79%;">
+                  <input type="password" name="txtcontrasena"  value="<?php echo  $usuario_password?>" readonly="true" style="width: 79%; color: gray;">
                   <a href="#editarContrasena" style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">&rarr;</a>
                 </div>
               </div>

@@ -59,7 +59,7 @@
            <form  action="perfil.php" method="post" enctype="multipart/form-data">
               <div class="modal-body">
                 <input type="hidden" name="txtidPersona" value="<?php echo $usuario_id ?>">
-                <input id=""type="password" name="txtContrasena"  value="<?php echo $usuario_password ?>" autofocus="value"  pattern="[A-Za-z0-9\s]+" required="" maxlength="" onkeypress="">
+                <input id=""type="text" name="txtContrasena"  value="<?php echo $usuario_password ?>" autofocus="value"  pattern="[A-Za-z0-9\s]+" required="" maxlength="" onkeypress="">
                 <p class="text-warning"><small>No dejar este campo vac&iacute;o.</small></p>
             </div>
 
