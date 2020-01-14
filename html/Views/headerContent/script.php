@@ -25,3 +25,11 @@
     	document.getElementById('info').innerHTML = pdrs;
 	}
 </script>
+
+<script language="javascript" type="text/javascript">
+ 
+// CONVERTIR LAS FILAS EN LINKS
+function CrearEnlace(url) {
+    document.location=url;
+}
+</script>

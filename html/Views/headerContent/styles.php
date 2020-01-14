@@ -404,4 +404,21 @@
          
       </style>
 
+      <style type="text/css">
+        .requiereAtencion 
+        {
+          -moz-border-radius: 25%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          background: darkred;
+          color: white;
+        }
+
+        .resaltar {
+            background-color: blue;
+            cursor: pointer;
+          }
+}
+      </style>
+
        

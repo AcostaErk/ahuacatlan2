@@ -38,7 +38,7 @@ header("Location: ../index.php");
             <th><a href="" >Solicitante</th>
             <th><a href="" >Tel&eacute;fono <br> del solicitante</th>
             <th><a href="" >Comunidad</th>
-            <th><a href="" >Departamento</th>
+            <th><a href="" >Ver</th>
           </tr>
         </thead>
         <tbody>
@@ -48,7 +48,9 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento X</td>
+            <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
           </tr>
           <tr>
             <td>00002/01/2020</td>
@@ -56,7 +58,9 @@ header("Location: ../index.php");
             <td>Javier Agustin Ramirez Martinez</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento X</td>
+             <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -64,7 +68,9 @@ header("Location: ../index.php");
             <td>Ramón Alfredo Diaz Espinoza</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento X</td>
+             <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -72,7 +78,9 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
-            <td>Departamento X</td>
+             <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
           </tr>
         </tbody>
       </table>

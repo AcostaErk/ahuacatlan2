@@ -11,6 +11,11 @@ include 'footerContent/script.php';
   <div class="container footer-widgets ">
     <div class="row widget-area" role="complementary">
       <div id="footer_one" class="span4">
+        
+      </div><!-- .{$key}_widget_class -->
+
+      <div id="footer_two" class="span4">
+        <center>
         <aside id="wpcw_contact-8" class="widget wpcw-widgets wpcw-widget-contact">
           <h3 class="widget-title">
             Presidencia Municipal
@@ -55,58 +60,9 @@ include 'footerContent/script.php';
             </li>
           </ul>
         </aside>
+        </center>
       </div><!-- .{$key}_widget_class -->
 
-      <div id="footer_two" class="span4">
-        <aside id="nav_menu-5" class="widget widget_nav_menu">
-          <h3 class="widget-title">
-            Navegaci&oacute;n
-          </h3>
-
-          <?php
-
-              if($rolUsuarioSesion==1)
-              {
-                include 'footerContent/menuOficialia.php';
-              }
-              else if ($rolUsuarioSesion==2)
-              {
-                include 'footerContent/menuSecretaria.php';
-              }
-              else if ($rolUsuarioSesion==3)
-              {
-                include 'footerContent/menuDepartamentos.php';
-              }
-              else if ($rolUsuarioSesion==4)
-              {
-                include 'footerContent/menuSolicitante.php';
-              }
-              else
-              {
-                include 'footerContent/menuVisitante.php';
-              }
-              ?>
-        </aside>
-      </div><!-- .{$key}_widget_class -->
-
-      <div id="footer_three" class="span4">
-        <aside id="search-6" class="widget widget_search">
-          <h3 class="widget-title">
-            B&uacute;squeda
-          </h3>
-
-          <form role="search" method="get" id="searchform" class="searchform" action="http://ahuacatlanavanza.gob.mx/">
-            <div>
-              <label class="screen-reader-text" for="s">
-                Buscar:
-              </label>
-
-              <input type="text" value="" name="s" id="s" />
-              <input type="submit" id="searchsubmit" value="Buscar" />
-            </div>
-          </form>
-        </aside>
-      </div><!-- .{$key}_widget_class -->
     </div><!-- .row.widget-area -->
   </div><!--.footer-widgets -->
 
