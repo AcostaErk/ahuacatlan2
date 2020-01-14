@@ -38,6 +38,7 @@ header("Location: ../index.php");
             <th><a href="" >Solicitante</th>
             <th><a href="" >Tel&eacute;fono <br> del solicitante</th>
             <th><a href="" >Comunidad</th>
+              <th><a href="" >Ver</th>
             <th><a href="" >Asignar a</th>
             <th><a href="" >Enviar</th>  
           </tr>
@@ -49,6 +50,9 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
+            <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
             <td>
               <select  name="" class="custom-select">
                 <option selected>Selecciona el departamento</option>
@@ -62,6 +66,9 @@ header("Location: ../index.php");
             <td>Javier Agustin Ramirez Martinez</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
+            <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
             <td>
               <select  name="" class="custom-select">
                 <option selected>Selecciona el departamento</option>
@@ -75,6 +82,9 @@ header("Location: ../index.php");
             <td>Ramón Alfredo Diaz Espinoza</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
+            <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
             <td>
               <select  name="" class="custom-select">
                 <option selected>Selecciona el departamento</option>
@@ -88,6 +98,9 @@ header("Location: ../index.php");
             <td>Erik Renato Acosta Cruz</td>
             <td>311 111 11 11</td>
             <td>Ahuacatl&aacute;n</td>
+            <form method="POST" action="../Views/verDetalleSolicitud.php" enctype='multipart/form-data'>
+              <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Ver detalle</button></td>
+            </form>
             <td>
               <select  name="" class="custom-select">
                 <option selected>Selecciona el departamento</option>

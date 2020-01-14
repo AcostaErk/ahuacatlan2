@@ -1,9 +1,14 @@
 <?php
 include 'rutasCarpeta.php'; //sss
 include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
-if($rolUsuarioSesion!=1){//Comprobamos que podamos accedar aqui
-header("Location: ../index.php");
+if($rolUsuarioSesion==1 or $rolUsuarioSesion==2 ){//Comprobamos que podamos accedar aqui
+
 }
+else
+{
+  header("Location: ../index.php");
+}
+?>
 
 ?>
 
@@ -35,6 +40,7 @@ header("Location: ../index.php");
             <h4 class="modal-title">Datos de la solicitud</h4>
           </div>
           <div class="modal-body">
+            <form action="javascript:history.back(-1);" method="post">
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-barcode"></i></i></span>
@@ -78,6 +84,10 @@ header("Location: ../index.php");
                 </div>
               </div>
               <br><br>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block btn-lg" >Volver</button>
+              </div>
+            </form>
           </div>
           <div class="modal-footer"> <a href="#"></a>
           </div>
