@@ -1,4 +1,4 @@
-<?php include '..\Controllers\metodosDB\tabla_dependencia.php'; ?>
+		<?php include '..\Controllers\metodosDB\tabla_dependencia.php'; ?>
 			<div class="nav-collapse collapse">
          		<div class="menu-menu-principal-container">
 							  <ul id="menu-menu-principal-2" class="nav">
