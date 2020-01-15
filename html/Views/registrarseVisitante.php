@@ -1,23 +1,22 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
- ?>
+include('../Controllers/metodosSesion/obtenerValoresSesion.php');//Obtenemos los valores de la sesion
 
-<?php
+
+
+
 //Seccion de la insercion
 if( isset($_POST["txtcorreoE"]) and isset($_POST["txtnombre"]) and  isset($_POST["txtcontrasena"]) ){
-include '..\Controllers\metodosDB\tabla_usuario.php';
-
+include('../Controllers/metodosDB/tabla_usuario.php');
 $correo=$_POST["txtcorreoE"];
 $nombre=$_POST["txtnombre"];
 $password=$_POST["txtcontrasena"];
 $fkDependencia=1;
 $fkRol=4;
 usuario_insertarVisitante($correo,$nombre,$password,$fkDependencia,$fkRol);
-include '..\Controllers\metodosSesion\crearSesion.php';
-header("Location: ../index.php");
+include('../Controllers/metodosSesion/crearSesion.php');
+header('Location: ../index.php');
 }
-//
  ?>
 
 <!DOCTYPE html>

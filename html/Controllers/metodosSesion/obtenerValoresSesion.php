@@ -1,12 +1,11 @@
 <?php
 session_start();
-if(isset($_SESSION["correo"])){
+if (isset($_SESSION["correo"])) {
 $sesionCorreo=$_SESSION["correo"];
 
- include $rutaDependiendoPagina;
-
+include $rutaDependiendoPagina;
 //Preparar sentencia con sus parametros
-$sentencia = $conexionDB->prepare("select * from usuario where correo = :sesionCorreo "
+$sentencia = $conexionDB->prepare("select * from usuario where correo = :sesionCorreo"
 );
 
 
@@ -15,8 +14,6 @@ $resultado=$sentencia->fetchAll();
 foreach ($resultado as $row) {
     $nombre= $row['nombre'];
     $fkRol= $row['fkRol'];
-
-
     }	
 	
 	
@@ -25,9 +22,9 @@ $nombreUsuarioSesion=$nombre;
 $rolUsuarioSesion=$fkRol;
 
 
-}else{
+} else {
   $nombreUsuarioSesion="";
   $rolUsuarioSesion=0;
-}
 
- ?>
+}
+?>

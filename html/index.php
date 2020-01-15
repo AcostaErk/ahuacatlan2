@@ -1,8 +1,9 @@
 <?php
 //Todo lo de aqui solo es para redireccionar a los diferentes indexes y darle un uso al index normal
 
-  $rutaDependiendoPagina='Controllers\metodosDB\conexionDB.php';//La posicion de las carpetas es relativo a los include tambien.
-include 'Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+  $rutaDependiendoPagina='Controllers/metodosDB/conexionDB.php';//La posicion de las carpetas es relativo a los include tambien.
+include 'Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+//echo $rolUsuarioSesion;
 
 if($rolUsuarioSesion==1)
 {
@@ -17,7 +18,7 @@ else if ($rolUsuarioSesion==3)
 }
 else if ($rolUsuarioSesion==4)
 {
-    header("Location: Views/indexSolicitante.php");
+    header('Location: Views/indexSolicitante.php');
 }
 else
 {
