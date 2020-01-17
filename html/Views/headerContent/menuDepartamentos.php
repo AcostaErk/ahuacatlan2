@@ -9,8 +9,14 @@
                     </li>
 
                     <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="" >
+                      <a href="../Views/solicitudesDepartamentos2.php">
                         Solicitudes
+                      </a>
+                    </li>
+
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
+                      <a href="../Views/perfil.php" title="">
+                        Perfil
                       </a>
                     </li>
 
