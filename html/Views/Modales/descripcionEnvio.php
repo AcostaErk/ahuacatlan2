@@ -9,7 +9,7 @@
               <h4 class="modal-title">A&ntilde;adir descripci&oacute;n de env&iacute;o</h4>
             </div>
 
-            <form  action="perfil.php" method="post" enctype="multipart/form-data">
+            <form  action="solicitudesSecretaria.php" method="post" enctype="multipart/form-data">
               <div class="modal-body">
 
                 <input type="hidden" name="txtidPersona" value="<?php echo $usuario_id ?>">
