@@ -58,7 +58,7 @@ header("Location: ../index.php");
                 <option selected>Selecciona el departamento</option>
               </select>
             </td>
-            <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Enviar</button></td>
+            <td><a href="#descripcionEnvio"  style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">Enviar</a></td>
           </tr>
           <tr>
             <td>00002/01/2020</td>
@@ -74,7 +74,7 @@ header("Location: ../index.php");
                 <option selected>Selecciona el departamento</option>
               </select>
             </td>
-            <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Enviar</button></td>
+            <td><a href="#descripcionEnvio"  style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">Enviar</a></td>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -90,7 +90,7 @@ header("Location: ../index.php");
                 <option selected>Selecciona el departamento</option>
               </select>
             </td>
-            <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Enviar</button></td>
+            <td><a href="#descripcionEnvio"  style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">Enviar</a></td>
           </tr>
            <tr>
             <td>00002/01/2020</td>
@@ -106,7 +106,7 @@ header("Location: ../index.php");
                 <option selected>Selecciona el departamento</option>
               </select>
             </td>
-            <td><button type="submit" class="btn btn-primary btn-block btn-lg" >Enviar</button></td>
+            <td><a href="#descripcionEnvio"  style="padding: 5px 10px;" role="button" class="btn btn-large btn-primary" data-toggle="modal">Enviar</a></td>
           </tr>
         </tbody>
       </table>
@@ -119,6 +119,7 @@ header("Location: ../index.php");
 
   <?php
   include 'footer.php';
+  include 'Modales/descripcionEnvio.php';
   ?>
 
 </html>
