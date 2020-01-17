@@ -13,12 +13,6 @@
                         Iniciar sesi&oacute;n
                       </a>
                     </li>
-
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-385" >
-                      <a href="registrarseVisitante.php" title="Usuario">
-                        Registrarse
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>

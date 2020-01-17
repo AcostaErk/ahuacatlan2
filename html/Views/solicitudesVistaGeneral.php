@@ -29,7 +29,8 @@ header("Location: ../index.php");
 
     	<center>
       <br>
-
+      <h2> Cantidad de solicitudes por departamento </h2>
+      <br>
       <table class="rwd_auto fontsize" style="width: 80%">
         <thead >
           <tr>
@@ -61,6 +62,10 @@ header("Location: ../index.php");
           </tr>
         </tbody>
       </table>
+      
+      <br>
+      <h2>Todas las solicitudes</h2>
+      <br>
 
       <table class="rwd_auto fontsize" style="width: 80%">
         <thead >
@@ -74,7 +79,7 @@ header("Location: ../index.php");
           </tr>
         </thead>
         <tbody>
-          <tr style=" background-color: red;"  onclick="CrearEnlace('../Views/login.php');" >
+          <tr>
             <td>00001/01/2020</td>
             <td>Revisando</td>
             <td>Erik Renato Acosta Cruz</td>
