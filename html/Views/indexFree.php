@@ -1,8 +1,8 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
  ?>
-
+ 
 
 <!DOCTYPE html>
 <html class="no-js" lang="es-ES">

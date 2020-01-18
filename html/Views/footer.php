@@ -11,7 +11,7 @@ include 'footerContent/script.php';
   <div class="container footer-widgets ">
     <div class="row widget-area" role="complementary">
       <div id="footer_one" class="span4">
-        
+
       </div><!-- .{$key}_widget_class -->
 
       <div id="footer_two" class="span4">

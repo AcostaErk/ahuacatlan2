@@ -1,8 +1,8 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion ==1 or $rolUsuarioSesion==2 or $rolUsuarioSesion==3 or $rolUsuarioSesion==4  ){//Comprobamos que podamos accedar aqui
-include '..\Controllers\metodosDB\tabla_usuario.php';
+include '../Controllers/metodosDB/tabla_usuario.php';
 
 }
 else

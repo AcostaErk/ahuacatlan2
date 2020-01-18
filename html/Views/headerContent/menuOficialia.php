@@ -1,4 +1,4 @@
-		<?php include '..\Controllers\metodosDB\tabla_dependencia.php'; ?>
+		<?php include '../Controllers/metodosDB/tabla_dependencia.php'; ?>
 			<div class="nav-collapse collapse">
          		<div class="menu-menu-principal-container">
 							  <ul id="menu-menu-principal-2" class="nav">
@@ -28,7 +28,7 @@
 							</li>
 							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
 								<a  href="../Views/verUsuario.php?Depa=3">
-									Oficial&iacute;a 
+									Oficial&iacute;a
 								</a>
 							</li>
 							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-1005">
