@@ -4,13 +4,10 @@ include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los 
 if($rolUsuarioSesion!=0){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
- ?>
 
-
- <?php
  //Seccion del Login
  if( isset($_POST["txtCorreoE"]) and isset($_POST["txtContrasena"]) ) {
-include '../Controllers/metodosDB/tabla_usuario.php';
+include ('../Controllers/metodosDB/tabla_usuario.php');
 
  $correo=$_POST["txtCorreoE"];
  $password=$_POST["txtContrasena"];
@@ -23,13 +20,13 @@ $fkRol=$row["fkRol"];
    }
 
    if($nombre!="" and $fkRol!=""){
-     include '../Controllers/metodosSesion/crearSesion.php';
+    include ('../Controllers/metodosSesion/crearSesion.php');
      header("Location: ../index.php");
    } else{
    header("Location: login.php");
    }
 
-}
+} else {
  //Seccion del Login
   ?>
 
@@ -66,13 +63,13 @@ $fkRol=$row["fkRol"];
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                  <input type="text" class="form-control" name="txtCorreoE" placeholder="Correo electrónico" required="required" style="width: 90%;">
+                  <input type="text" class="form-control" name="txtCorreoE" placeholder="Correo electr贸nico" required="required" style="width: 90%;">
                 </div>
               </div>
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                  <input type="password" class="form-control" name="txtContrasena" placeholder="Contraseña" required="required" style="width: 90%;">
+                  <input type="password" class="form-control" name="txtContrasena" placeholder="Contrase帽a" required="required" style="width: 90%;">
                 </div>
               </div>
               <div class="form-group">
@@ -97,3 +94,4 @@ $fkRol=$row["fkRol"];
   ?>
 
 </html>
+<?php } ?>

@@ -107,14 +107,13 @@ function usuario_mostrarPorDependencia($idDepa)
   return $resultado;
 }
 
-function usuario_Login($correo,$password){
-  include 'conexionDB.php';
 
+function usuario_Login($correo,$password) {
+  include 'conexionDB.php';
 
   //Preparar sentencia con sus parametros
   $sentencia = $conexionDB->prepare("select * from usuario where correo = :correo and
    password = :password ");
-
 
   $sentencia->execute(array(':correo' => $correo,':password' => $password));
   $resultado=$sentencia->fetchAll();

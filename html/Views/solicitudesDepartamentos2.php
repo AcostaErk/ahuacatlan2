@@ -1,6 +1,6 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=3){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
@@ -40,7 +40,7 @@ header("Location: ../index.php");
             <th><a href="" >Comunidad</th>
               <th><a href="" >Ver</th>
             <th><a href="" >Status</th>
-            <th><a href="" >Reasignar a <br> secretaria</th>  
+            <th><a href="" >Reasignar a <br> secretaria</th>
           </tr>
         </thead>
         <tbody>

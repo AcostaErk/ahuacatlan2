@@ -1,6 +1,6 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion==1 or $rolUsuarioSesion==2 ){//Comprobamos que podamos accedar aqui
 
 }
@@ -51,7 +51,7 @@ else
                 <div class="input-group">
                   <span class="input-group-addon"><i class="fa fa-user"></i></span>
                   <input type="text" class="form-control" name="txtnombre" value="Erik Renato Acosta Cruz" readonly="true"required="required" style="width: 90%;">
-                </div> 
+                </div>
               </div>
               <div class="form-group">
                 <div class="input-group">

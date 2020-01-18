@@ -1,15 +1,13 @@
 <?php
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=1){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
-?>
 
-<?php
 //Esta seccion es la insercion
 if(isset($_POST["txtnombre"])){
-include '..\Controllers\metodosDB\tabla_dependencia.php';
+include '../Controllers/metodosDB/tabla_dependencia.php';
 $nombreDependencia=$_POST["txtnombre"];
 dependencia_insertar($nombreDependencia);
 header("Location: registrarNuevoDepartamento.php");

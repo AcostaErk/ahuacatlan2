@@ -1,7 +1,7 @@
 <?php
- include '..\Controllers\metodosDB\tabla_usuario.php';
+ include '../Controllers/metodosDB/tabla_usuario.php';
 include 'rutasCarpeta.php'; //sss
-include '..\Controllers\metodosSesion\obtenerValoresSesion.php';//Obtenemos los valores de la sesion
+include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
 if($rolUsuarioSesion!=1){//Comprobamos que podamos accedar aqui
 header("Location: ../index.php");
 }
