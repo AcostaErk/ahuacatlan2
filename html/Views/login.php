@@ -10,7 +10,7 @@ header("Location: ../index.php");
  <?php
  //Seccion del Login
  if( isset($_POST["txtCorreoE"]) and isset($_POST["txtContrasena"]) ) {
-include '..\Controllers\metodosDB\tabla_usuario.php';
+include '../Controllers/metodosDB/tabla_usuario.php';
 
  $correo=$_POST["txtCorreoE"];
  $password=$_POST["txtContrasena"];
@@ -23,7 +23,7 @@ $fkRol=$row["fkRol"];
    }
 
    if($nombre!="" and $fkRol!=""){
-     include '..\Controllers\metodosSesion\crearSesion.php';
+     include '../Controllers/metodosSesion/crearSesion.php';
      header("Location: ../index.php");
    } else{
    header("Location: login.php");
