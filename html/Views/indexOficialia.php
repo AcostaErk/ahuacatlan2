@@ -1,7 +1,7 @@
 <?php
 include 'rutasCarpeta.php'; //sss
 include '../Controllers/metodosSesion/obtenerValoresSesion.php';//Obtenemos los valores de la sesion
-if($rolUsuarioSesion==1) {//Comprobamos que podamos accedar aqui
+if($rolUsuarioSesion!=1) {//Comprobamos que podamos accedar aqui
 header('Location: ../index.php');
 }
 ?>
